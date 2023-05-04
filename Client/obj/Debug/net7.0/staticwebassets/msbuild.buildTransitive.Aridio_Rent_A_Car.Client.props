@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Aridio_Rent_A_Car.Client.props" />
+</Project>
