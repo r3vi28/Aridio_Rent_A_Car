@@ -10,7 +10,7 @@ public class FormaDePago
     public int Id { get; set; }
     public string Nombre { get; set; } = null!;
 
-    public static FormaDePago Crear(FormaDePago request)
+    public static FormaDePago Crear(FormaDePagoCreateRequest request)
     {
         return new FormaDePago(){
             Nombre = request.Nombre
