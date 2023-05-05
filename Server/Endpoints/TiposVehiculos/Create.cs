@@ -7,7 +7,7 @@ using Aridio_Rent_A_Car.Server.Models;
 using Microsoft.EntityFrameworkCore;
 using Aridio_Rent_A_Car.Shared.Routes;
 
-namespace Restaurante.Server.Endpoints.TiposVehiculos;
+namespace Aridio_Rent_A_Car.Server.Endpoints.TiposVehiculos;
 
 using Request = TipoVehiculoCreateRequest;
 using Respuesta = Result<int>;

@@ -6,7 +6,7 @@ using Aridio_Rent_A_Car.Shared.Records;
 using Aridio_Rent_A_Car.Shared.Routes;
 using Aridio_Rent_A_Car.Shared.Wrapper;
 
-namespace Restaurante.Server.Endpoints.Usuarios;
+namespace Aridio_Rent_A_Car.Server.Endpoints.Usuarios;
 
 using Respuesta = Result<UsuarioRecord>;
 using Request = UsuarioRouteManager;

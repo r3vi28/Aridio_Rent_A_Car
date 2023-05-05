@@ -7,7 +7,7 @@ using Aridio_Rent_A_Car.Server.Models;
 using Microsoft.EntityFrameworkCore;
 using Aridio_Rent_A_Car.Shared.Routes;
 
-namespace Restaurante.Server.Endpoints.FormasDePago;
+namespace Aridio_Rent_A_Car.Server.Endpoints.FormasDePago;
 
 using Request = FormaDePagoCreateRequest;
 using Respuesta = Result<int>;

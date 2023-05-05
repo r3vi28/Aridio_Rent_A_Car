@@ -7,7 +7,7 @@ using Aridio_Rent_A_Car.Server.Models;
 using Microsoft.EntityFrameworkCore;
 using Aridio_Rent_A_Car.Shared.Routes;
 
-namespace Restaurante.Server.Endpoints.UsuariosRoles;
+namespace Aridio_Rent_A_Car.Server.Endpoints.UsuariosRoles;
 
 using Request = UsuarioRolCreateRequest;
 using Respuesta = Result<int>;
