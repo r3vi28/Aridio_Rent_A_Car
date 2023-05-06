@@ -9,43 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1524130243,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.App",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1153928106,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.App",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -2100536192,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.Pages.Counter",
@@ -157,59 +120,74 @@
         }
       },
       {
-        "HashCode": 538898756,
+        "HashCode": -1524130243,
         "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Shared.SurveyPrompt",
+        "Name": "Aridio_Rent_A_Car.Client.App",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
+            "TagName": "App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1153928106,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.App",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1953995089,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Shared.NavMenu",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -892264232,
+        "HashCode": -1023200349,
         "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Shared.SurveyPrompt",
+        "Name": "Aridio_Rent_A_Car.Client.Shared.NavMenu",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Aridio_Rent_A_Car.Client.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
+            "TagName": "Aridio_Rent_A_Car.Client.Shared.NavMenu"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -322,37 +300,59 @@
         }
       },
       {
-        "HashCode": 1953995089,
+        "HashCode": 538898756,
         "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Shared.NavMenu",
+        "Name": "Aridio_Rent_A_Car.Client.Shared.SurveyPrompt",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
           "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -1023200349,
+        "HashCode": -892264232,
         "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Shared.NavMenu",
+        "Name": "Aridio_Rent_A_Car.Client.Shared.SurveyPrompt",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Aridio_Rent_A_Car.Client.Shared.NavMenu"
+            "TagName": "Aridio_Rent_A_Car.Client.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
           "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2VDlWmtBK2433nRwqWifRPyz2N3TtXe/ZcO2owh4+GGLtt6/CLYZiWbYcyR7zCOWZdNZwALI3kQz3WDN/52B6w==",
+  "dgSpecHash": "NxxkJY21JA1vKVqvUTUt03lIk/I9QUyVIT3hEAxLgHe1iBCGS4he86EHXPQ8xo67HWFroQwXzrDpf4VAPEvTxw==",
   "success": true,
   "projectFilePath": "C:\\WorkSpace\\Aridio_Rent_A_Car\\Client\\Aridio_Rent_A_Car.Client.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\moise\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\moise\\.nuget\\packages\\microsoft.jsinterop\\7.0.0\\microsoft.jsinterop.7.0.0.nupkg.sha512",
     "C:\\Users\\moise\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.0\\microsoft.jsinterop.webassembly.7.0.0.nupkg.sha512",
+    "C:\\Users\\moise\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\moise\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\moise\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\moise\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
