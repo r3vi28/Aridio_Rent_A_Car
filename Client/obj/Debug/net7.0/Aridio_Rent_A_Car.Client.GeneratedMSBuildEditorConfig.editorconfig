@@ -20,6 +20,18 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/the_d/OneDrive/Documentos/GitHub/Aridio_Rent_A_Car/Client/Pages/Cliente/AddEditVehiculo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZVxBZGRFZGl0VmVoaWN1bG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/the_d/OneDrive/Documentos/GitHub/Aridio_Rent_A_Car/Client/Pages/Cliente/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZVxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/the_d/OneDrive/Documentos/GitHub/Aridio_Rent_A_Car/Client/Pages/Cliente/_imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZVxfaW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/the_d/OneDrive/Documentos/GitHub/Aridio_Rent_A_Car/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +54,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/the_d/OneDrive/Documentos/GitHub/Aridio_Rent_A_Car/Client/Pages/UsuarioRoles/_imports.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1JvbGVzXF9pbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/the_d/OneDrive/Documentos/GitHub/Aridio_Rent_A_Car/Client/Pages/Vehiculo/AddEditEstadoVehiculo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWN1bG9cQWRkRWRpdEVzdGFkb1ZlaGljdWxvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/the_d/OneDrive/Documentos/GitHub/Aridio_Rent_A_Car/Client/Pages/Vehiculo/AddEditVehiculo.razor]

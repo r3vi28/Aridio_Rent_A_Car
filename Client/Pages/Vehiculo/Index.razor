@@ -1,7 +1,7 @@
 @page "/vehiculo"
 
 <h1>Vehiculos</h1>
-<button class="btn-outline-primary" @onclick="Registrar">Registrar</button>
+<button class="btn-outline-primary" @onclick="Agregar">Agregar</button>
 @if(Vehiculos != null )
 {
     <ul>
@@ -28,12 +28,12 @@ else
             }
         }
 
-        public void Registrar()
+        public void Agregar()
         {
             urlHelper.NavigateTo("/vehiculo/crear",false);
         }
 
-                public void Editar(int Id)
+            public void Editar(int Id)
         {
             urlHelper.NavigateTo($"/vehiculo/editar/{Id}",false);
         }

@@ -50,12 +50,15 @@
 
     public VehiculoUpdateRequest Vehi {get; set;} = new VehiculoUpdateRequest();
 
+    public EstadoVehiculoUpdateRequest EstadoVehi {get; set;} = new EstadoVehiculoUpdateRequest();
+
         protected override async Task OnInitializedAsync()
         {
             
             if(Id!=0){
                 var resultado = await VehiculoManager.GetByIdAsync(Id);
-                if(resultado.Succeeded){
+                if(resultado.Succeeded)
+                {
                     Vehi.Id = resultado.Data.Id;
                     Vehi.Marca = resultado.Data.Marca;
                     Vehi.Año = resultado.Data.Año;
@@ -64,7 +67,6 @@
                     Vehi.NumeroPlaca = resultado.Data.NumeroPlaca;
                     Vehi.PrecioPorDia = resultado.Data.PrecioPorDia;
                     @* Vehi.EstadoVehiculoId = resultado.Data.EstadoVehiculoId; *@
-
                 }
             }
         }

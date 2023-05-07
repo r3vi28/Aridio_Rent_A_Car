@@ -1,0 +1,93 @@
+@page "/clientes/crear"
+@page "/clientes/editar/{Id:int}"
+
+<EditForm Model="@Clien" OnInvalidSubmit="Send">
+<h1>@Titulo</h1>
+<DataAnnotationsValidator/>
+<ValidationSummary/>
+    <div class="form-group">
+        <label>Nombre Completo</label>
+        <InputText class="form-control" @bind-Value="Clien.Nombre"></InputText>
+    </div>
+
+    <div class="form-group">
+        <label>Direccion</label>
+        <InputText class="form-control" @bind-Value="Clien.Direccion"></InputText>
+    </div>
+
+    <div class="form-group">
+        <label>Telefono</label>
+        <InputText class="form-control" @bind-Value="Clien.Telefono"></InputText>
+    </div>
+
+    <div class="form-group">
+        <label>Nacionalidad</label>
+        <InputText class="form-control" @bind-Value="Clien.Nacionalidad"></InputText>
+    </div>
+
+    <div class="form-group">
+        <label>Cedula</label>
+        <InputText class="form-control" @bind-Value="Clien.Cedula"></InputText>
+    </div>
+
+    <div class="form-group">
+        <label>Ocupacion</label>
+        <InputText class="form-control" @bind-Value="Clien.Ocupacion"></InputText>
+    </div>
+
+    <div class="form-group">
+        <label>Pasaporte</label>
+        <InputText class="form-control" @bind-Value="Clien.Pasaporte"></InputText>
+    </div>
+
+    <div class="form-group">
+        <label>Licencia</label>
+        <InputText class="form-control" @bind-Value="Clien.Licencia"></InputText>
+    </div>
+
+    <div class="form-group">
+        <label>Fecha de expiracion licencia</label>
+        <input type="datetime" class="form-control" @bind="Clien.FechaExpiracionLicencia" />
+    </div>
+
+    <button type="submit" class="mt-2 btn btn-success" @onclick="Send">Ok</button>
+</EditForm>
+
+@code
+{
+    [Parameter]
+
+    public int Id {get; set;} = 0;
+
+    public string Titulo => Id>0? "Editar clientes":"Crear clientes";
+
+    public ClienteUpdateRequest Clien {get; set;} = new ClienteUpdateRequest();
+
+protected override async Task OnInitializedAsync()
+{
+    if(Id!=0){
+        var resultado = await ClienteManager.GetByIdAsync(Id);
+        if(resultado.Succeeded){
+            Clien.Id = resultado.Data.Id;
+            Clien.Nombre = resultado.Data.Nombre;
+            Clien.Direccion = resultado.Data.Direccion;
+            Clien.Telefono = resultado.Data.Telefono;
+            Clien.Nacionalidad = resultado.Data.Nacionalidad;
+            Clien.Cedula = resultado.Data.Cedula;
+            Clien.Ocupacion = resultado.Data.Ocupacion;
+            Clien.Pasaporte = resultado.Data.Pasaporte;
+            Clien.Licencia = resultado.Data.Licencia;
+            Clien.FechaExpiracionLicencia = resultado.Data.FechaExpiracionLicencia;
+            StateHasChanged();
+        }
+    }
+}
+
+public async void Send()
+{
+    var resultado = await ClienteManager.CreateAsync(Clien);
+
+    if(resultado.Succeeded) urlHelper.NavigateTo("/clientes");
+}
+
+}

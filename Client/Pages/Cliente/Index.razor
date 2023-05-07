@@ -1,0 +1,41 @@
+@page "/clientes"
+<h1>Clientes</h1>
+<button class="btn btn-outline-primary" @onclick="Agregar">Agregar</button>
+@if (clientes != null)
+{
+    <ul>
+        @foreach (var clien in clientes)
+        {
+            <li>@clien.Nombre <span class="btn btn-outline-warning" @onclick="()=>Editar(clien.Id)">Editar></span></li>
+        }
+    </ul>
+}
+else
+{
+    <p>Cargando...</p>
+}
+
+@code
+{
+    public List<ClienteRecord>? clientes {get; set;}
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var response = await ClienteManager.GetAsync();
+        if(response.Succeeded)
+        {
+            clientes = response.Items.ToList();
+        }
+    }
+    
+
+    public void Agregar()
+    {
+        urlHelper.NavigateTo("/clientes/crear",false);
+    }
+
+    public void Editar(int Id)
+    {
+        urlHelper.NavigateTo($"/clientes/editar/{Id}",false);
+    }
+}
