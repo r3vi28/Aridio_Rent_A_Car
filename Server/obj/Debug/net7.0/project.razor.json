@@ -5362,14 +5362,14 @@
         }
       },
       {
-        "HashCode": -144727035,
+        "HashCode": 1277660849,
         "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditRol",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AddEditRol"
+            "TagName": "AddEditVehiculo"
           }
         ],
         "BoundAttributes": [
@@ -5384,21 +5384,21 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditRol",
-          "Common.TypeNameIdentifier": "AddEditRol",
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo",
+          "Common.TypeNameIdentifier": "AddEditVehiculo",
           "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -1201670842,
+        "HashCode": 1121313645,
         "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditRol",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditRol"
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo"
           }
         ],
         "BoundAttributes": [
@@ -5413,8 +5413,8 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditRol",
-          "Common.TypeNameIdentifier": "AddEditRol",
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo",
+          "Common.TypeNameIdentifier": "AddEditVehiculo",
           "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
