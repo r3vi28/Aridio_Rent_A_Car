@@ -1,11 +1,11 @@
 using Aridio_Rent_A_Car.Shared.Wrapper;
 using Aridio_Rent_A_Car.Shared.Records;
 using Aridio_Rent_A_Car.Shared.Routes;
-using Restaurante.Client.Extensions;
+using Aridio_Rent_A_Car.Client.Extensions;
 using Aridio_Rent_A_Car.Shared.Requests;
 using System.Net.Http.Json;
 
-namespace Restaurante.Client.Managers;
+namespace Aridio_Rent_A_Car.Client.Managers;
 
 public interface ITipoVehiculoManager
 {

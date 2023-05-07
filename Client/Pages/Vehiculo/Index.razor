@@ -1,0 +1,40 @@
+@page "/vehiculo"
+
+<h1>Vehiculos</h1>
+<button class="btn-outline-primary" @onclick="Registrar">Registrar</button>
+@if(Vehiculos != null )
+{
+    <ul>
+        @foreach (var vehi in Vehiculos )
+        {
+            <li>@vehi.Marca <span class="btn btn-outline-warning " @onclick="()=>Editar(vehi.Id)">Editar</span></li>
+        }
+    </ul>
+}
+else
+{
+    <p>No hay vehiculos registrados...</p>
+}
+
+
+@code
+{
+    public List<VehiculoRecord>? Vehiculos { get; set; }
+        protected override async Task OnInitializedAsync()
+        {
+            var response = await VehiculoManager.GetAsync();
+            if(response.Succeeded){
+             Vehiculos = response.Items.ToList();   
+            }
+        }
+
+        public void Registrar()
+        {
+            urlHelper.NavigateTo("/vehiculo/crear",false);
+        }
+
+                public void Editar(int Id)
+        {
+            urlHelper.NavigateTo($"/vehiculo/editar/{Id}",false);
+        }
+}

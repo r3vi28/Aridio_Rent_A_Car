@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpace\\Aridio_Rent_A_Car\\Server\\Aridio_Rent_A_Car.Server.csproj": {}
+    "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Server\\Aridio_Rent_A_Car.Server.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace\\Aridio_Rent_A_Car\\Client\\Aridio_Rent_A_Car.Client.csproj": {
+    "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Aridio_Rent_A_Car.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\Aridio_Rent_A_Car\\Client\\Aridio_Rent_A_Car.Client.csproj",
+        "projectUniqueName": "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Aridio_Rent_A_Car.Client.csproj",
         "projectName": "Aridio_Rent_A_Car.Client",
-        "projectPath": "C:\\WorkSpace\\Aridio_Rent_A_Car\\Client\\Aridio_Rent_A_Car.Client.csproj",
-        "packagesPath": "C:\\Users\\moise\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\Aridio_Rent_A_Car\\Client\\obj\\",
+        "projectPath": "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Aridio_Rent_A_Car.Client.csproj",
+        "packagesPath": "C:\\Users\\the_d\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\moise\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\the_d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\WorkSpace\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj": {
-                "projectPath": "C:\\WorkSpace\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj"
+              "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj": {
+                "projectPath": "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj"
               }
             }
           }
@@ -50,6 +52,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -74,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -83,33 +89,35 @@
         }
       }
     },
-    "C:\\WorkSpace\\Aridio_Rent_A_Car\\Server\\Aridio_Rent_A_Car.Server.csproj": {
+    "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Server\\Aridio_Rent_A_Car.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\Aridio_Rent_A_Car\\Server\\Aridio_Rent_A_Car.Server.csproj",
+        "projectUniqueName": "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Server\\Aridio_Rent_A_Car.Server.csproj",
         "projectName": "Aridio_Rent_A_Car.Server",
-        "projectPath": "C:\\WorkSpace\\Aridio_Rent_A_Car\\Server\\Aridio_Rent_A_Car.Server.csproj",
-        "packagesPath": "C:\\Users\\moise\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\Aridio_Rent_A_Car\\Server\\obj\\",
+        "projectPath": "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Server\\Aridio_Rent_A_Car.Server.csproj",
+        "packagesPath": "C:\\Users\\the_d\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\moise\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\the_d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\WorkSpace\\Aridio_Rent_A_Car\\Client\\Aridio_Rent_A_Car.Client.csproj": {
-                "projectPath": "C:\\WorkSpace\\Aridio_Rent_A_Car\\Client\\Aridio_Rent_A_Car.Client.csproj"
+              "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Aridio_Rent_A_Car.Client.csproj": {
+                "projectPath": "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Aridio_Rent_A_Car.Client.csproj"
               },
-              "C:\\WorkSpace\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj": {
-                "projectPath": "C:\\WorkSpace\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj"
+              "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj": {
+                "projectPath": "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj"
               }
             }
           }
@@ -174,26 +182,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\WorkSpace\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj": {
+    "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj",
         "projectName": "Aridio_Rent_A_Car.Shared",
-        "projectPath": "C:\\WorkSpace\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj",
-        "packagesPath": "C:\\Users\\moise\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\Aridio_Rent_A_Car\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Shared\\Aridio_Rent_A_Car.Shared.csproj",
+        "packagesPath": "C:\\Users\\the_d\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\moise\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\the_d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -227,7 +237,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

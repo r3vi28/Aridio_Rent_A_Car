@@ -29,6 +29,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-q4ruoDSCjV\/QJY9ZkzV6uxvEvZUVrDbyUjU3SSh5SlE=",
       "Microsoft.JSInterop.dll": "sha256-q17WovokqNgFuXZO8JzEh+dShJEutXJL12V9hSr+Q6s=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-LS1TECEw0D6FskWRcaDt51suj930x2zRQySVGe2mJ3o=",
+      "Newtonsoft.Json.dll": "sha256-IsZJ91\/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=",
       "System.IO.Pipelines.dll": "sha256-P\/MqD0fCBd5bgTM16JC1QC\/Zz7s+CwViyzmDFkBG4\/c=",
       "Microsoft.CSharp.dll": "sha256-FWCuPmOmgiOH+yf8assJ\/zkmP3u3UlIr0cEz22mW9rE=",
       "Microsoft.VisualBasic.Core.dll": "sha256-\/T9+8W0Fs9hs8GrzSVqvcqV7hSNQ4Iq0krkIjT77UZU=",
@@ -198,18 +199,18 @@
       "mscorlib.dll": "sha256-T52Qf1cS\/UysEoWOoE2ptEJEXfGpanQX5KNLyDiLv1E=",
       "netstandard.dll": "sha256-p32h5P3QmHJ\/FGoeE6m7f5g\/8ng2PSPGZktHyMadvIs=",
       "System.Private.CoreLib.dll": "sha256-6MwQcyKbqBsoZYOcD9fQJ4iKcn1qMmWRWVEkU2LLCb0=",
-      "Aridio_Rent_A_Car.Shared.dll": "sha256-AmXznhUyXDfWHirKFIAvXSdV\/CGngFtuQWybrXyfe8w=",
-      "Aridio_Rent_A_Car.Client.dll": "sha256-\/wKlA2l7aiNwf3gGAlHinLlTKa6iqQIvjYs8ZCpEXeQ="
+      "Aridio_Rent_A_Car.Shared.dll": "sha256-WX8ZG5zytEDLJsPK+QKlXmJk36EEEmaJMja22FHRRj4=",
+      "Aridio_Rent_A_Car.Client.dll": "sha256-plpkJeOnYkITLeNGn9lw10l79rUb6oenc0Qhg5OkX7A="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Aridio_Rent_A_Car.Shared.pdb": "sha256-421pC7IiDQMJP1wEtWYWSY9sTwy+UGdhoPArzzMrWRw=",
-      "Aridio_Rent_A_Car.Client.pdb": "sha256-ecKKHKFdAP8sLJ21EOP83CfRxzYpFeXIIs1YVeSyUUI="
+      "Aridio_Rent_A_Car.Shared.pdb": "sha256-u3fpKgkFn7LMOdYCnwMdi0PjVpugV1O5Y7Ekq16+tBw=",
+      "Aridio_Rent_A_Car.Client.pdb": "sha256-V857cMxDfFdHaaRLmrL7cDpwm1qK1nbI56SWE1TYRls="
     },
     "runtime": {
-      "dotnet.7.0.2.t0mszhzzw0.js": "sha256-4mh03qTse0uNR+dQ6ydExm4jJXph0RE8zGNCtF0jiNA=",
+      "dotnet.7.0.2.skg5axcka7.js": "sha256-4mh03qTse0uNR+dQ6ydExm4jJXph0RE8zGNCtF0jiNA=",
       "dotnet.timezones.blat": "sha256-ics+RIevvtH3z9plMxv4\/GSMK9+LKYd9sy3FRRI5qTI=",
       "dotnet.wasm": "sha256-U4Yv0mEAN9gesUDNM9s6uB3RdekdPqtggt1OsytNIQM=",
       "icudt.dat": "sha256-DXO3tJHXDOV4qgW\/w8ooggAgZdAVpa5ZllYYAQWpYIk=",

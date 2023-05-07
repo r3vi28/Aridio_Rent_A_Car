@@ -5,7 +5,7 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "hash": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7\/p4nS6D\/0=",
       "url": "css\/bootstrap\/bootstrap.min.css"
     },
     {
@@ -159,6 +159,10 @@
     {
       "hash": "sha256-LS1TECEw0D6FskWRcaDt51suj930x2zRQySVGe2mJ3o=",
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
+    },
+    {
+      "hash": "sha256-IsZJ91\/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=",
+      "url": "_framework\/Newtonsoft.Json.dll"
     },
     {
       "hash": "sha256-P\/MqD0fCBd5bgTM16JC1QC\/Zz7s+CwViyzmDFkBG4\/c=",
@@ -838,7 +842,7 @@
     },
     {
       "hash": "sha256-4mh03qTse0uNR+dQ6ydExm4jJXph0RE8zGNCtF0jiNA=",
-      "url": "_framework\/dotnet.7.0.2.t0mszhzzw0.js"
+      "url": "_framework\/dotnet.7.0.2.skg5axcka7.js"
     },
     {
       "hash": "sha256-ics+RIevvtH3z9plMxv4\/GSMK9+LKYd9sy3FRRI5qTI=",
@@ -865,19 +869,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-AmXznhUyXDfWHirKFIAvXSdV\/CGngFtuQWybrXyfe8w=",
+      "hash": "sha256-WX8ZG5zytEDLJsPK+QKlXmJk36EEEmaJMja22FHRRj4=",
       "url": "_framework\/Aridio_Rent_A_Car.Shared.dll"
     },
     {
-      "hash": "sha256-421pC7IiDQMJP1wEtWYWSY9sTwy+UGdhoPArzzMrWRw=",
+      "hash": "sha256-u3fpKgkFn7LMOdYCnwMdi0PjVpugV1O5Y7Ekq16+tBw=",
       "url": "_framework\/Aridio_Rent_A_Car.Shared.pdb"
     },
     {
-      "hash": "sha256-\/wKlA2l7aiNwf3gGAlHinLlTKa6iqQIvjYs8ZCpEXeQ=",
+      "hash": "sha256-plpkJeOnYkITLeNGn9lw10l79rUb6oenc0Qhg5OkX7A=",
       "url": "_framework\/Aridio_Rent_A_Car.Client.dll"
     },
     {
-      "hash": "sha256-ecKKHKFdAP8sLJ21EOP83CfRxzYpFeXIIs1YVeSyUUI=",
+      "hash": "sha256-V857cMxDfFdHaaRLmrL7cDpwm1qK1nbI56SWE1TYRls=",
       "url": "_framework\/Aridio_Rent_A_Car.Client.pdb"
     },
     {
@@ -885,9 +889,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-RM6IU3I8vsMgXaOR5G1OP1cBZty0\/bYzjaa9B52uJnw=",
+      "hash": "sha256-tmMba\/xa1g4sWTwcPBomzC5+CNG6Wvrq5+mkHPQWXZA=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "KNjUbXLA"
+  "version": "6+oZlkGX"
 };

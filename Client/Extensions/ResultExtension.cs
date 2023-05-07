@@ -1,7 +1,7 @@
 using Aridio_Rent_A_Car.Shared.Wrapper;
 using Newtonsoft.Json;
 
-namespace Restaurante.Client.Extensions;
+namespace Aridio_Rent_A_Car.Client.Extensions;
 
 internal static class ResultExtension
 {
