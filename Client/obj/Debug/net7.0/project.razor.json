@@ -9,43 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1115956046,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.App",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1228041702,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.App",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 467673871,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.Pages.Counter",
@@ -157,6 +120,43 @@
         }
       },
       {
+        "HashCode": -1213126946,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "_imports"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
+          "Common.TypeNameIdentifier": "_imports",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 439962985,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
+          "Common.TypeNameIdentifier": "_imports",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": 385415711,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.AddEditRol",
@@ -253,9 +253,9 @@
         }
       },
       {
-        "HashCode": -1213126946,
+        "HashCode": 1762576604,
         "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -264,27 +264,27 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
           "Common.TypeNameIdentifier": "_imports",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 439962985,
+        "HashCode": -362650179,
         "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports"
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
           "Common.TypeNameIdentifier": "_imports",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -380,43 +380,6 @@
         "Metadata": {
           "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.Index",
           "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1762576604,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "_imports"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
-          "Common.TypeNameIdentifier": "_imports",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -362650179,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
-          "Common.TypeNameIdentifier": "_imports",
           "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -620,6 +583,43 @@
           "Common.TypeName": "Aridio_Rent_A_Car.Client.Shared.NavMenu",
           "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1115956046,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.App",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1228041702,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.App",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
