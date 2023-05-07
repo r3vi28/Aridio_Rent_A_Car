@@ -1,40 +1,363 @@
-@page "/roles"
-<h1>Roles</h1>
-<button class="btn btn-outline-primary" @onclick="Agregar">Agregar</button>
-@if(Roles != null)
-{
-    <ul>
-        @foreach(var rol in Roles){
-            <li>@rol.Nombre <span class="btn btn-outline-warning" @onclick="()=>Editar(rol.Id)">Editar</span> </li>
-        }
-    </ul>
-}
-else
-{
-    <p>Cargando...</p>
-}
+@page "/EstadoVehiculo"
+<EditForm Model="@Estad" OnInvalidSubmit="Send">
+<h1>Estado Vehiculo</h1>
+<DataAnnotationsValidator/>
+<ValidationSummary/>
+
+    <div class="form-group">
+        <label>Aire Acondicionado</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.AireAcondicionado"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.AireAcondicionado"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+     <div class="form-group">
+        <label>Encendedor</label>
+        @* <InputText class="form-control" @bind-Value="Estad.Encendedor"></InputText> *@
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Encendedor"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Encendedor"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+    
+    <div class="form-group">
+        <label>Radio</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Radio"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Radio"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Bateria</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Bateria"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Bateria"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Limpiabrisas</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Limpiabrisas"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Limpiabrisas"/>
+        <label for="ckbEditar">No</label>
+    </div>        
+
+
+    <div class="form-group">
+        <label>Revista</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Revista"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Revista"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Documentos</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Documentos"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Documentos"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+    
+    <div class="form-group">
+        <label>Micas</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Micas"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Micas"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Asientos</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Asientos"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Asientos"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Goma de repuesto</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.GomaRepuesto"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.GomaRepuesto"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Placa</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Placa"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Placa"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Vidrios</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Vidrios"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Vidrios"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    
+    <div class="form-group">
+        <label>Llaveros</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Llaveros"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Llaveros"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Antenas</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Antenas"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Antenas"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Gatos</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Gatos"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Gatos"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Tapa Gasolina</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.TapaGasolina"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.TapaGasolina"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Cinturones</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Cinturones"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Cinturones"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Llave de ruedas</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.LlaveDeRuedas"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.LlaveDeRuedas"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Alfombras</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Alfombras"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Alfombras"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Espejos</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Espejos"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Espejos"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Tapa de bocinas</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.TapaDeBocinas"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.TapaDeBocinas"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Bocinas</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Bocinas"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Bocinas"/>
+        <label for="ckbEditar">No</label>
+    </div>
+
+
+    <div class="form-group">
+        <label>Logos</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Estad.Logos"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Estad.Logos"/>
+        <label for="ckbEditar">No</label>
+    </div> 
+
+    <button type="submit" class="mt-2 btn btn-success" @onclick="Send">Ok</button>
+
+</EditForm>
 
 
 @code
 {
-    public List<UsuarioRolRecord>? Roles {get; set;}
-    
-    protected override async Task OnInitializedAsync()
-    {
-        var response = await rolesManager.GetAsync();
-        if(response.Succeeded)
-        {
-            Roles = response.Items.ToList();
+    [Parameter]
+
+    public int Id { get; set; } = 0;
+
+    public EstadoVehiculoUpdateRequest Estad {get; set;} = new EstadoVehiculoUpdateRequest();
+
+protected override async Task OnInitializedAsync()
+{
+    if(Id!=0){
+        var resultado = await EstadoVehiculoManager.GetByIdAsync(Id);
+        if(resultado.Succeeded){
+            Estad.Id = resultado.Data.Id;
+            Estad.AireAcondicionado = resultado.Data.AireAcondicionado;
+            Estad.Encendedor = resultado.Data.Encendedor;
+            Estad.Radio = resultado.Data.Radio;
+            Estad.Bateria = resultado.Data.Bateria;
+            Estad.Limpiabrisas = resultado.Data.Limpiabrisas;
+            Estad.Revista = resultado.Data.Revista;
+            Estad.Documentos = resultado.Data.Documentos;
+            Estad.Micas = resultado.Data.Micas;
+            Estad.Asientos = resultado.Data.Asientos;
+            Estad.GomaRepuesto = resultado.Data.GomaRepuesto;
+            Estad.Placa = resultado.Data.Placa;
+            Estad.Vidrios = resultado.Data.Vidrios;
+            Estad.Llaveros = resultado.Data.Llaveros;
+            Estad.Antenas = resultado.Data.Antenas;
+            Estad.Gatos = resultado.Data.Gatos;
+            Estad.TapaGasolina = resultado.Data.TapaGasolina;
+            Estad.Cinturones = resultado.Data.Cinturones;
+            Estad.LlaveDeRuedas = resultado.Data.LlaveDeRuedas;
+            Estad.Alfombras = resultado.Data.Alfombras;
+            Estad.Espejos = resultado.Data.Espejos;
+            Estad.TapaDeBocinas = resultado.Data.TapaDeBocinas;
+            Estad.Bocinas = resultado.Data.Bocinas;
+            Estad.Logos = resultado.Data.Logos;
+
+            StateHasChanged();
         }
     }
+}
 
-    public void Agregar()
-    {
-        urlHelper.NavigateTo("/rol/crear",false);
-    }
+        public async void Send()
+        {
+            var resultado = await EstadoVehiculoManager.CreateAsync(Estad);
 
-    public void Editar(int Id)
-    {
-        urlHelper.NavigateTo($"/rol/editar/{Id}",false);
-    }
+            if(resultado.Succeeded) urlHelper.NavigateTo("/vehiculo");
+        }
+
+
 }

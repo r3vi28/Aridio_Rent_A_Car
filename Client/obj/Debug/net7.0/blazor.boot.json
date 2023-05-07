@@ -200,14 +200,14 @@
       "netstandard.dll": "sha256-p32h5P3QmHJ\/FGoeE6m7f5g\/8ng2PSPGZktHyMadvIs=",
       "System.Private.CoreLib.dll": "sha256-6MwQcyKbqBsoZYOcD9fQJ4iKcn1qMmWRWVEkU2LLCb0=",
       "Aridio_Rent_A_Car.Shared.dll": "sha256-WX8ZG5zytEDLJsPK+QKlXmJk36EEEmaJMja22FHRRj4=",
-      "Aridio_Rent_A_Car.Client.dll": "sha256-AWodKdTWqfhUwB55CIxF+towy8NIYsXYq9ruwwwhCJY="
+      "Aridio_Rent_A_Car.Client.dll": "sha256-fdtU0L+Aq8mD0rT9K3b516F2u4iHUQmXFxwrVOB04rs="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "Aridio_Rent_A_Car.Shared.pdb": "sha256-u3fpKgkFn7LMOdYCnwMdi0PjVpugV1O5Y7Ekq16+tBw=",
-      "Aridio_Rent_A_Car.Client.pdb": "sha256-FLQAa6gIIyqTRy1EbPOvU8BMfiZrsw1ZRNevEooyRg8="
+      "Aridio_Rent_A_Car.Client.pdb": "sha256-AMgXYPRADwfJAG57c1rtVvS5w\/ON\/kW1s9f6FgjdhnY="
     },
     "runtime": {
       "dotnet.7.0.2.skg5axcka7.js": "sha256-4mh03qTse0uNR+dQ6ydExm4jJXph0RE8zGNCtF0jiNA=",

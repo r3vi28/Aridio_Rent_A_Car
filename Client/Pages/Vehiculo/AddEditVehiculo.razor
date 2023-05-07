@@ -2,7 +2,7 @@
 @page "/vehiculo/editar/{Id:int}"
 
 
-<EditForm Model="@Vehi" OnInvalidSubmit="Send">
+<EditForm Model="@Vehi" OnInvalidSubmit="Next">
 <h1>@Titulo</h1>
 <DataAnnotationsValidator/>
 <ValidationSummary/>
@@ -35,7 +35,8 @@
         <input type="number" class="form-control" @bind="Vehi.EstadoVehiculoId" />
     </div> *@
 
-    <button type="submit" class="mt-2 btn btn-success" @onclick="Send">Ok</button>
+    @* <button type="submit" class="mt-2 btn btn-success" @onclick="Send">Ok</button> *@
+    <button type="submit" class="mt-2 btn btn-success" @onclick="Next">Siguiente</button>
 </EditForm>
 
 
@@ -71,9 +72,16 @@
             }
         }
         
-        public async void Send(){
+        @* public async void Send()
+        {
             var resultado = await VehiculoManager.CreateAsync(Vehi);
 
             if(resultado.Succeeded) urlHelper.NavigateTo("/vehiculo");
+        } *@
+
+        public void Next()
+        {
+            urlHelper.NavigateTo("/EstadoVehiculo");
         }
+
 }
