@@ -9,7 +9,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -336861272,
+        "HashCode": -614879828,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.App",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -27,7 +27,7 @@
         }
       },
       {
-        "HashCode": 656681512,
+        "HashCode": -553198979,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.App",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -46,458 +46,7 @@
         }
       },
       {
-        "HashCode": 1946903031,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Counter",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 675993302,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Counter",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 597290219,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.FetchData",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -177424503,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.FetchData",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1888769457,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Index",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1493011069,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Index",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1115385225,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.Index",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1669185461,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.Index",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1411931285,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "_imports"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
-          "Common.TypeNameIdentifier": "_imports",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1959146810,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
-          "Common.TypeNameIdentifier": "_imports",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1076584639,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.AddEditRol",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AddEditRol"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Id",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.AddEditRol",
-          "Common.TypeNameIdentifier": "AddEditRol",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 940820258,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.AddEditRol",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.AddEditRol"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Id",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.AddEditRol",
-          "Common.TypeNameIdentifier": "AddEditRol",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 561891621,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "_imports"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
-          "Common.TypeNameIdentifier": "_imports",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -384217501,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
-          "Common.TypeNameIdentifier": "_imports",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 38429273,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.Index",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1754928208,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.Index",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 776852114,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AddEditVehiculo"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Id",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo",
-          "Common.TypeNameIdentifier": "AddEditVehiculo",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1872062993,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Id",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo",
-          "Common.TypeNameIdentifier": "AddEditVehiculo",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -515263163,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Cliente.Index",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Cliente.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Cliente",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 102328606,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Cliente.Index",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.Cliente.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Cliente.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Cliente",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -415774025,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Cliente._imports",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "_imports"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Cliente._imports",
-          "Common.TypeNameIdentifier": "_imports",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Cliente",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 2016940301,
-        "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.Cliente._imports",
-        "AssemblyName": "Aridio_Rent_A_Car.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.Cliente._imports"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Cliente._imports",
-          "Common.TypeNameIdentifier": "_imports",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Cliente",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1654792820,
+        "HashCode": 282603375,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.Pages.Cliente.AddEditVehiculo",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -526,7 +75,7 @@
         }
       },
       {
-        "HashCode": -571113505,
+        "HashCode": 1129684597,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.Pages.Cliente.AddEditVehiculo",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -556,9 +105,9 @@
         }
       },
       {
-        "HashCode": 1182719497,
+        "HashCode": -1802187308,
         "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo._imports",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Cliente._imports",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -567,33 +116,107 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo._imports",
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Cliente._imports",
           "Common.TypeNameIdentifier": "_imports",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Cliente",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -1301153630,
+        "HashCode": -524518197,
         "Kind": "Components.Component",
-        "Name": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo._imports",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Cliente._imports",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo._imports"
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.Cliente._imports"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo._imports",
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Cliente._imports",
           "Common.TypeNameIdentifier": "_imports",
-          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Cliente",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -1319623583,
+        "HashCode": 2099951532,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Cliente.Index",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Cliente.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Cliente",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1434523259,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Cliente.Index",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.Cliente.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Cliente.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Cliente",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1930391436,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Counter",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -136353386,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Counter",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1279178570,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo.Index",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -622,7 +245,7 @@
         }
       },
       {
-        "HashCode": 1727207804,
+        "HashCode": -1228556422,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo.Index",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -652,7 +275,384 @@
         }
       },
       {
-        "HashCode": 290964267,
+        "HashCode": 1018210632,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo._imports",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "_imports"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo._imports",
+          "Common.TypeNameIdentifier": "_imports",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 375108245,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo._imports",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo._imports"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo._imports",
+          "Common.TypeNameIdentifier": "_imports",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.EstadoVehiculo",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1759995766,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.FetchData",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -687426851,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.FetchData",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -332815112,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Index",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -2030982954,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Index",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 603829512,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.AddEditRol",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddEditRol"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.AddEditRol",
+          "Common.TypeNameIdentifier": "AddEditRol",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 544312671,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.AddEditRol",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.AddEditRol"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.AddEditRol",
+          "Common.TypeNameIdentifier": "AddEditRol",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -794907308,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.Index",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1747222433,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.Index",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1666882039,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "_imports"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
+          "Common.TypeNameIdentifier": "_imports",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -471450090,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles._imports",
+          "Common.TypeNameIdentifier": "_imports",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.UsuarioRoles",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1261528820,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddEditVehiculo"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo",
+          "Common.TypeNameIdentifier": "AddEditVehiculo",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1673314154,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.AddEditVehiculo",
+          "Common.TypeNameIdentifier": "AddEditVehiculo",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1340777964,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.Index",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1464335713,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.Index",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 2028027758,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "_imports"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
+          "Common.TypeNameIdentifier": "_imports",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1404783567,
+        "Kind": "Components.Component",
+        "Name": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
+        "AssemblyName": "Aridio_Rent_A_Car.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Aridio_Rent_A_Car.Client.Pages.Vehiculo._imports",
+          "Common.TypeNameIdentifier": "_imports",
+          "Common.TypeNamespace": "Aridio_Rent_A_Car.Client.Pages.Vehiculo",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1049176114,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.Shared.SurveyPrompt",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -681,7 +681,7 @@
         }
       },
       {
-        "HashCode": -1812161929,
+        "HashCode": -1732416925,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.Shared.SurveyPrompt",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -711,7 +711,7 @@
         }
       },
       {
-        "HashCode": 329452305,
+        "HashCode": 162873133,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.Shared.MainLayout",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -742,7 +742,7 @@
         }
       },
       {
-        "HashCode": -2005122386,
+        "HashCode": 1808801023,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.Shared.MainLayout",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -774,7 +774,7 @@
         }
       },
       {
-        "HashCode": -427313499,
+        "HashCode": 1432234940,
         "Kind": "Components.ChildContent",
         "Name": "Aridio_Rent_A_Car.Client.Shared.MainLayout.Body",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -795,7 +795,7 @@
         }
       },
       {
-        "HashCode": 644556227,
+        "HashCode": 2002010625,
         "Kind": "Components.ChildContent",
         "Name": "Aridio_Rent_A_Car.Client.Shared.MainLayout.Body",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -817,7 +817,7 @@
         }
       },
       {
-        "HashCode": -1455789677,
+        "HashCode": 1753789454,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.Shared.NavMenu",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -835,7 +835,7 @@
         }
       },
       {
-        "HashCode": 1283249776,
+        "HashCode": -518007681,
         "Kind": "Components.Component",
         "Name": "Aridio_Rent_A_Car.Client.Shared.NavMenu",
         "AssemblyName": "Aridio_Rent_A_Car.Client",
@@ -854,7 +854,7 @@
         }
       },
       {
-        "HashCode": 1747419314,
+        "HashCode": -1956690307,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -929,7 +929,7 @@
         }
       },
       {
-        "HashCode": -921006734,
+        "HashCode": 965395568,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1005,7 +1005,7 @@
         }
       },
       {
-        "HashCode": -1656269843,
+        "HashCode": -1541053892,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1026,7 +1026,7 @@
         }
       },
       {
-        "HashCode": -896299178,
+        "HashCode": 1195140445,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1048,7 +1048,7 @@
         }
       },
       {
-        "HashCode": 1657134979,
+        "HashCode": 2113330176,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1090,7 +1090,7 @@
         }
       },
       {
-        "HashCode": -1239597080,
+        "HashCode": -2098874413,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1133,7 +1133,7 @@
         }
       },
       {
-        "HashCode": -1250519880,
+        "HashCode": -1338769997,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1175,7 +1175,7 @@
         }
       },
       {
-        "HashCode": -121127480,
+        "HashCode": -1169377374,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1218,7 +1218,7 @@
         }
       },
       {
-        "HashCode": 1332320924,
+        "HashCode": -1214506288,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1239,7 +1239,7 @@
         }
       },
       {
-        "HashCode": -545141291,
+        "HashCode": 448270066,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1261,7 +1261,7 @@
         }
       },
       {
-        "HashCode": -231798018,
+        "HashCode": -1530215814,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1303,7 +1303,7 @@
         }
       },
       {
-        "HashCode": 710402395,
+        "HashCode": 774926302,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1346,7 +1346,7 @@
         }
       },
       {
-        "HashCode": 1969499698,
+        "HashCode": -2112388239,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1454,7 +1454,7 @@
         }
       },
       {
-        "HashCode": 1440215098,
+        "HashCode": -1485863998,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1563,7 +1563,7 @@
         }
       },
       {
-        "HashCode": -1091966794,
+        "HashCode": 1464216155,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1584,7 +1584,7 @@
         }
       },
       {
-        "HashCode": -675338852,
+        "HashCode": 345248816,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1606,7 +1606,7 @@
         }
       },
       {
-        "HashCode": -179376921,
+        "HashCode": 1623804439,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1639,7 +1639,7 @@
         }
       },
       {
-        "HashCode": -2130409561,
+        "HashCode": -1921521637,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1673,7 +1673,7 @@
         }
       },
       {
-        "HashCode": -644808698,
+        "HashCode": -992660896,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1694,7 +1694,7 @@
         }
       },
       {
-        "HashCode": 640829932,
+        "HashCode": 1018625325,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1716,7 +1716,7 @@
         }
       },
       {
-        "HashCode": -414705748,
+        "HashCode": -1359973810,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1735,7 +1735,7 @@
         }
       },
       {
-        "HashCode": 687051389,
+        "HashCode": -239958307,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1755,7 +1755,7 @@
         }
       },
       {
-        "HashCode": 407017554,
+        "HashCode": 49825231,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1860,7 +1860,7 @@
         }
       },
       {
-        "HashCode": -1435862426,
+        "HashCode": 1861700685,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1966,7 +1966,7 @@
         }
       },
       {
-        "HashCode": 1337826114,
+        "HashCode": -2007431661,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1999,7 +1999,7 @@
         }
       },
       {
-        "HashCode": 2010807997,
+        "HashCode": 1760266917,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2033,7 +2033,7 @@
         }
       },
       {
-        "HashCode": 125629754,
+        "HashCode": -473048879,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2105,7 +2105,7 @@
         }
       },
       {
-        "HashCode": 453679866,
+        "HashCode": 32475301,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2178,7 +2178,7 @@
         }
       },
       {
-        "HashCode": 613417432,
+        "HashCode": -416799686,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2286,7 +2286,7 @@
         }
       },
       {
-        "HashCode": 1148175418,
+        "HashCode": 697647474,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2395,7 +2395,7 @@
         }
       },
       {
-        "HashCode": -1117168274,
+        "HashCode": 160279899,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2437,7 +2437,7 @@
         }
       },
       {
-        "HashCode": 881256906,
+        "HashCode": 315740024,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2480,7 +2480,7 @@
         }
       },
       {
-        "HashCode": -763065627,
+        "HashCode": -1898727793,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2577,7 +2577,7 @@
         }
       },
       {
-        "HashCode": -1913288385,
+        "HashCode": 205839083,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2675,7 +2675,7 @@
         }
       },
       {
-        "HashCode": 1734668996,
+        "HashCode": -551976170,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2739,7 +2739,7 @@
         }
       },
       {
-        "HashCode": 262691574,
+        "HashCode": -355124415,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2804,7 +2804,7 @@
         }
       },
       {
-        "HashCode": -1037810279,
+        "HashCode": -2001429268,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2912,7 +2912,7 @@
         }
       },
       {
-        "HashCode": 661245939,
+        "HashCode": -482814452,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3021,7 +3021,7 @@
         }
       },
       {
-        "HashCode": -873867584,
+        "HashCode": -1933607805,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3042,7 +3042,7 @@
         }
       },
       {
-        "HashCode": -999110715,
+        "HashCode": 501552354,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3064,7 +3064,7 @@
         }
       },
       {
-        "HashCode": 2113428889,
+        "HashCode": -1092879401,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3162,7 +3162,7 @@
         }
       },
       {
-        "HashCode": 1881301355,
+        "HashCode": 74299218,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3261,7 +3261,7 @@
         }
       },
       {
-        "HashCode": -1228714747,
+        "HashCode": -806280890,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3282,7 +3282,7 @@
         }
       },
       {
-        "HashCode": -1471463919,
+        "HashCode": 17584684,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3304,7 +3304,7 @@
         }
       },
       {
-        "HashCode": 116113287,
+        "HashCode": 1784170582,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3376,7 +3376,7 @@
         }
       },
       {
-        "HashCode": 634508010,
+        "HashCode": -788671906,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3449,7 +3449,7 @@
         }
       },
       {
-        "HashCode": -186147886,
+        "HashCode": 599334592,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3521,7 +3521,7 @@
         }
       },
       {
-        "HashCode": -1060970676,
+        "HashCode": -793349961,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3594,7 +3594,7 @@
         }
       },
       {
-        "HashCode": 479114074,
+        "HashCode": 1553579642,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3648,7 +3648,7 @@
         }
       },
       {
-        "HashCode": 519044964,
+        "HashCode": -826898728,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3703,7 +3703,7 @@
         }
       },
       {
-        "HashCode": 1552051324,
+        "HashCode": -1254947000,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3744,7 +3744,7 @@
         }
       },
       {
-        "HashCode": -1588018497,
+        "HashCode": 716191008,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3786,7 +3786,7 @@
         }
       },
       {
-        "HashCode": 1799970750,
+        "HashCode": -1526371503,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3827,7 +3827,7 @@
         }
       },
       {
-        "HashCode": 341565614,
+        "HashCode": 779164622,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3869,7 +3869,7 @@
         }
       },
       {
-        "HashCode": 683934624,
+        "HashCode": -2145850085,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3911,7 +3911,7 @@
         }
       },
       {
-        "HashCode": 1103118002,
+        "HashCode": 2009436346,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3954,7 +3954,7 @@
         }
       },
       {
-        "HashCode": 1540834626,
+        "HashCode": 1674711535,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4017,7 +4017,7 @@
         }
       },
       {
-        "HashCode": 1893427659,
+        "HashCode": -1075578324,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4081,7 +4081,7 @@
         }
       },
       {
-        "HashCode": -524570575,
+        "HashCode": -1283448303,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4102,7 +4102,7 @@
         }
       },
       {
-        "HashCode": -1492905475,
+        "HashCode": 1271980350,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4124,7 +4124,7 @@
         }
       },
       {
-        "HashCode": -254306898,
+        "HashCode": -1930442200,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4156,7 +4156,7 @@
         }
       },
       {
-        "HashCode": 696058710,
+        "HashCode": 358483037,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4189,7 +4189,7 @@
         }
       },
       {
-        "HashCode": 253238924,
+        "HashCode": -1187661279,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4210,7 +4210,7 @@
         }
       },
       {
-        "HashCode": 117751498,
+        "HashCode": 1624879328,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4232,7 +4232,7 @@
         }
       },
       {
-        "HashCode": -136126190,
+        "HashCode": -577964237,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4251,7 +4251,7 @@
         }
       },
       {
-        "HashCode": -1464128552,
+        "HashCode": 325662669,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4271,7 +4271,7 @@
         }
       },
       {
-        "HashCode": 1728063949,
+        "HashCode": -96804186,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4303,7 +4303,7 @@
         }
       },
       {
-        "HashCode": 842562074,
+        "HashCode": -756597303,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4336,7 +4336,7 @@
         }
       },
       {
-        "HashCode": -99253142,
+        "HashCode": 2050853468,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4357,7 +4357,7 @@
         }
       },
       {
-        "HashCode": -1927805091,
+        "HashCode": 231946524,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4379,7 +4379,7 @@
         }
       },
       {
-        "HashCode": -1135217,
+        "HashCode": -989369308,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4442,7 +4442,7 @@
         }
       },
       {
-        "HashCode": 1123388083,
+        "HashCode": -1797153646,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4506,7 +4506,7 @@
         }
       },
       {
-        "HashCode": -1771793144,
+        "HashCode": 519494477,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4527,7 +4527,7 @@
         }
       },
       {
-        "HashCode": 1151431983,
+        "HashCode": -638385383,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4549,7 +4549,7 @@
         }
       },
       {
-        "HashCode": -1044146073,
+        "HashCode": -1677267651,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4582,7 +4582,7 @@
         }
       },
       {
-        "HashCode": -840090936,
+        "HashCode": 77294342,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4616,7 +4616,7 @@
         }
       },
       {
-        "HashCode": 20217559,
+        "HashCode": -1185324632,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4748,7 +4748,7 @@
         }
       },
       {
-        "HashCode": -1887727173,
+        "HashCode": 508354876,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4881,7 +4881,7 @@
         }
       },
       {
-        "HashCode": -240066445,
+        "HashCode": -479580155,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4914,7 +4914,7 @@
         }
       },
       {
-        "HashCode": 41810161,
+        "HashCode": -1934099946,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4948,7 +4948,7 @@
         }
       },
       {
-        "HashCode": 1534623428,
+        "HashCode": -301547149,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4981,7 +4981,7 @@
         }
       },
       {
-        "HashCode": -960802935,
+        "HashCode": 1761279200,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5015,7 +5015,7 @@
         }
       },
       {
-        "HashCode": 745133661,
+        "HashCode": 918581042,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5048,7 +5048,7 @@
         }
       },
       {
-        "HashCode": -1159830121,
+        "HashCode": -936235266,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5082,7 +5082,7 @@
         }
       },
       {
-        "HashCode": 573758776,
+        "HashCode": -693258471,
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5165,7 +5165,7 @@
         }
       },
       {
-        "HashCode": -1774477822,
+        "HashCode": 1164846302,
         "Kind": "Components.EventHandler",
         "Name": "onblur",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5248,7 +5248,7 @@
         }
       },
       {
-        "HashCode": -703663491,
+        "HashCode": -916523428,
         "Kind": "Components.EventHandler",
         "Name": "onfocusin",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5331,7 +5331,7 @@
         }
       },
       {
-        "HashCode": 1622167462,
+        "HashCode": -1898086369,
         "Kind": "Components.EventHandler",
         "Name": "onfocusout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5414,7 +5414,7 @@
         }
       },
       {
-        "HashCode": -467404000,
+        "HashCode": 225073090,
         "Kind": "Components.EventHandler",
         "Name": "onmouseover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5497,7 +5497,7 @@
         }
       },
       {
-        "HashCode": -1328654182,
+        "HashCode": 1664789109,
         "Kind": "Components.EventHandler",
         "Name": "onmouseout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5580,7 +5580,7 @@
         }
       },
       {
-        "HashCode": -613625287,
+        "HashCode": 968804516,
         "Kind": "Components.EventHandler",
         "Name": "onmouseleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5663,7 +5663,7 @@
         }
       },
       {
-        "HashCode": 1515348274,
+        "HashCode": -1132307557,
         "Kind": "Components.EventHandler",
         "Name": "onmouseenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5746,7 +5746,7 @@
         }
       },
       {
-        "HashCode": 1096394357,
+        "HashCode": 1282076085,
         "Kind": "Components.EventHandler",
         "Name": "onmousemove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5829,7 +5829,7 @@
         }
       },
       {
-        "HashCode": -1137839202,
+        "HashCode": -2088608741,
         "Kind": "Components.EventHandler",
         "Name": "onmousedown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5912,7 +5912,7 @@
         }
       },
       {
-        "HashCode": -1644045070,
+        "HashCode": -1448704094,
         "Kind": "Components.EventHandler",
         "Name": "onmouseup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5995,7 +5995,7 @@
         }
       },
       {
-        "HashCode": 294294421,
+        "HashCode": 351449273,
         "Kind": "Components.EventHandler",
         "Name": "onclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6078,7 +6078,7 @@
         }
       },
       {
-        "HashCode": -1921271372,
+        "HashCode": 1109036683,
         "Kind": "Components.EventHandler",
         "Name": "ondblclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6161,7 +6161,7 @@
         }
       },
       {
-        "HashCode": -171063904,
+        "HashCode": -1615066916,
         "Kind": "Components.EventHandler",
         "Name": "onwheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6244,7 +6244,7 @@
         }
       },
       {
-        "HashCode": -1831677271,
+        "HashCode": 865558039,
         "Kind": "Components.EventHandler",
         "Name": "onmousewheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6327,7 +6327,7 @@
         }
       },
       {
-        "HashCode": -1238759098,
+        "HashCode": -150559819,
         "Kind": "Components.EventHandler",
         "Name": "oncontextmenu",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6410,7 +6410,7 @@
         }
       },
       {
-        "HashCode": 1983425111,
+        "HashCode": -1622503052,
         "Kind": "Components.EventHandler",
         "Name": "ondrag",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6493,7 +6493,7 @@
         }
       },
       {
-        "HashCode": -1865525761,
+        "HashCode": -1224588838,
         "Kind": "Components.EventHandler",
         "Name": "ondragend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6576,7 +6576,7 @@
         }
       },
       {
-        "HashCode": -718356806,
+        "HashCode": -826516061,
         "Kind": "Components.EventHandler",
         "Name": "ondragenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6659,7 +6659,7 @@
         }
       },
       {
-        "HashCode": -1357854702,
+        "HashCode": -1464435648,
         "Kind": "Components.EventHandler",
         "Name": "ondragleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6742,7 +6742,7 @@
         }
       },
       {
-        "HashCode": 282895822,
+        "HashCode": -2071749708,
         "Kind": "Components.EventHandler",
         "Name": "ondragover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6825,7 +6825,7 @@
         }
       },
       {
-        "HashCode": 155550750,
+        "HashCode": -740433002,
         "Kind": "Components.EventHandler",
         "Name": "ondragstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6908,7 +6908,7 @@
         }
       },
       {
-        "HashCode": 1907542009,
+        "HashCode": 121171510,
         "Kind": "Components.EventHandler",
         "Name": "ondrop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6991,7 +6991,7 @@
         }
       },
       {
-        "HashCode": -1369329796,
+        "HashCode": 1394800211,
         "Kind": "Components.EventHandler",
         "Name": "onkeydown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7074,7 +7074,7 @@
         }
       },
       {
-        "HashCode": -1086155161,
+        "HashCode": -782941250,
         "Kind": "Components.EventHandler",
         "Name": "onkeyup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7157,7 +7157,7 @@
         }
       },
       {
-        "HashCode": -1824811012,
+        "HashCode": -1021671639,
         "Kind": "Components.EventHandler",
         "Name": "onkeypress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7240,7 +7240,7 @@
         }
       },
       {
-        "HashCode": 783804011,
+        "HashCode": -1332531182,
         "Kind": "Components.EventHandler",
         "Name": "onchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7323,7 +7323,7 @@
         }
       },
       {
-        "HashCode": -1151398509,
+        "HashCode": -749970684,
         "Kind": "Components.EventHandler",
         "Name": "oninput",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7406,7 +7406,7 @@
         }
       },
       {
-        "HashCode": 25251916,
+        "HashCode": -354499686,
         "Kind": "Components.EventHandler",
         "Name": "oninvalid",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7489,7 +7489,7 @@
         }
       },
       {
-        "HashCode": 1837717431,
+        "HashCode": -969526124,
         "Kind": "Components.EventHandler",
         "Name": "onreset",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7572,7 +7572,7 @@
         }
       },
       {
-        "HashCode": 432757398,
+        "HashCode": -833499746,
         "Kind": "Components.EventHandler",
         "Name": "onselect",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7655,7 +7655,7 @@
         }
       },
       {
-        "HashCode": 1235724451,
+        "HashCode": -898291016,
         "Kind": "Components.EventHandler",
         "Name": "onselectstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7738,7 +7738,7 @@
         }
       },
       {
-        "HashCode": 1036151940,
+        "HashCode": 1975190967,
         "Kind": "Components.EventHandler",
         "Name": "onselectionchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7821,7 +7821,7 @@
         }
       },
       {
-        "HashCode": -1501658913,
+        "HashCode": 398094451,
         "Kind": "Components.EventHandler",
         "Name": "onsubmit",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7904,7 +7904,7 @@
         }
       },
       {
-        "HashCode": -711736925,
+        "HashCode": -992526051,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7987,7 +7987,7 @@
         }
       },
       {
-        "HashCode": -867714808,
+        "HashCode": 1032440156,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8070,7 +8070,7 @@
         }
       },
       {
-        "HashCode": -85979767,
+        "HashCode": -879328723,
         "Kind": "Components.EventHandler",
         "Name": "onbeforepaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8153,7 +8153,7 @@
         }
       },
       {
-        "HashCode": -1403205101,
+        "HashCode": -1270137621,
         "Kind": "Components.EventHandler",
         "Name": "oncopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8236,7 +8236,7 @@
         }
       },
       {
-        "HashCode": 1580852611,
+        "HashCode": 303012815,
         "Kind": "Components.EventHandler",
         "Name": "oncut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8319,7 +8319,7 @@
         }
       },
       {
-        "HashCode": -1024302645,
+        "HashCode": 1190454388,
         "Kind": "Components.EventHandler",
         "Name": "onpaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8402,7 +8402,7 @@
         }
       },
       {
-        "HashCode": 97440272,
+        "HashCode": -1941385333,
         "Kind": "Components.EventHandler",
         "Name": "ontouchcancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8485,7 +8485,7 @@
         }
       },
       {
-        "HashCode": -1385823585,
+        "HashCode": -1906698507,
         "Kind": "Components.EventHandler",
         "Name": "ontouchend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8568,7 +8568,7 @@
         }
       },
       {
-        "HashCode": 2020597241,
+        "HashCode": -2139724139,
         "Kind": "Components.EventHandler",
         "Name": "ontouchmove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8651,7 +8651,7 @@
         }
       },
       {
-        "HashCode": -990181812,
+        "HashCode": -1259040813,
         "Kind": "Components.EventHandler",
         "Name": "ontouchstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8734,7 +8734,7 @@
         }
       },
       {
-        "HashCode": 1019007381,
+        "HashCode": -1347806240,
         "Kind": "Components.EventHandler",
         "Name": "ontouchenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8817,7 +8817,7 @@
         }
       },
       {
-        "HashCode": -201789370,
+        "HashCode": -2054353329,
         "Kind": "Components.EventHandler",
         "Name": "ontouchleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8900,7 +8900,7 @@
         }
       },
       {
-        "HashCode": -1556896149,
+        "HashCode": -6045892,
         "Kind": "Components.EventHandler",
         "Name": "ongotpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8983,7 +8983,7 @@
         }
       },
       {
-        "HashCode": -786905583,
+        "HashCode": 407345561,
         "Kind": "Components.EventHandler",
         "Name": "onlostpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9066,7 +9066,7 @@
         }
       },
       {
-        "HashCode": 489634451,
+        "HashCode": 617683907,
         "Kind": "Components.EventHandler",
         "Name": "onpointercancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9149,7 +9149,7 @@
         }
       },
       {
-        "HashCode": 392891936,
+        "HashCode": -1313431988,
         "Kind": "Components.EventHandler",
         "Name": "onpointerdown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9232,7 +9232,7 @@
         }
       },
       {
-        "HashCode": -1712354653,
+        "HashCode": -410087614,
         "Kind": "Components.EventHandler",
         "Name": "onpointerenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9315,7 +9315,7 @@
         }
       },
       {
-        "HashCode": -907609926,
+        "HashCode": 53821173,
         "Kind": "Components.EventHandler",
         "Name": "onpointerleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9398,7 +9398,7 @@
         }
       },
       {
-        "HashCode": -1928434722,
+        "HashCode": -1176970030,
         "Kind": "Components.EventHandler",
         "Name": "onpointermove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9481,7 +9481,7 @@
         }
       },
       {
-        "HashCode": -2069296218,
+        "HashCode": 483900625,
         "Kind": "Components.EventHandler",
         "Name": "onpointerout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9564,7 +9564,7 @@
         }
       },
       {
-        "HashCode": 1809105954,
+        "HashCode": 1337342570,
         "Kind": "Components.EventHandler",
         "Name": "onpointerover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9647,7 +9647,7 @@
         }
       },
       {
-        "HashCode": -1744782331,
+        "HashCode": -1953465289,
         "Kind": "Components.EventHandler",
         "Name": "onpointerup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9730,7 +9730,7 @@
         }
       },
       {
-        "HashCode": 1021719196,
+        "HashCode": -1875805344,
         "Kind": "Components.EventHandler",
         "Name": "oncanplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9813,7 +9813,7 @@
         }
       },
       {
-        "HashCode": -755641313,
+        "HashCode": -1973412613,
         "Kind": "Components.EventHandler",
         "Name": "oncanplaythrough",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9896,7 +9896,7 @@
         }
       },
       {
-        "HashCode": -1146088621,
+        "HashCode": -347163994,
         "Kind": "Components.EventHandler",
         "Name": "oncuechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9979,7 +9979,7 @@
         }
       },
       {
-        "HashCode": 1248939580,
+        "HashCode": -2112203596,
         "Kind": "Components.EventHandler",
         "Name": "ondurationchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10062,7 +10062,7 @@
         }
       },
       {
-        "HashCode": 538133047,
+        "HashCode": -818060020,
         "Kind": "Components.EventHandler",
         "Name": "onemptied",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10145,7 +10145,7 @@
         }
       },
       {
-        "HashCode": 837576430,
+        "HashCode": -192595164,
         "Kind": "Components.EventHandler",
         "Name": "onpause",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10228,7 +10228,7 @@
         }
       },
       {
-        "HashCode": -590272430,
+        "HashCode": -1951522347,
         "Kind": "Components.EventHandler",
         "Name": "onplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10311,7 +10311,7 @@
         }
       },
       {
-        "HashCode": 50561699,
+        "HashCode": -327431221,
         "Kind": "Components.EventHandler",
         "Name": "onplaying",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10394,7 +10394,7 @@
         }
       },
       {
-        "HashCode": -61888376,
+        "HashCode": -652624301,
         "Kind": "Components.EventHandler",
         "Name": "onratechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10477,7 +10477,7 @@
         }
       },
       {
-        "HashCode": 1048598425,
+        "HashCode": 292242073,
         "Kind": "Components.EventHandler",
         "Name": "onseeked",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10560,7 +10560,7 @@
         }
       },
       {
-        "HashCode": 122991975,
+        "HashCode": 629708619,
         "Kind": "Components.EventHandler",
         "Name": "onseeking",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10643,7 +10643,7 @@
         }
       },
       {
-        "HashCode": 808226834,
+        "HashCode": 2007785982,
         "Kind": "Components.EventHandler",
         "Name": "onstalled",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10726,7 +10726,7 @@
         }
       },
       {
-        "HashCode": 1569999848,
+        "HashCode": 1902023260,
         "Kind": "Components.EventHandler",
         "Name": "onstop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10809,7 +10809,7 @@
         }
       },
       {
-        "HashCode": -1477307189,
+        "HashCode": -685095038,
         "Kind": "Components.EventHandler",
         "Name": "onsuspend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10892,7 +10892,7 @@
         }
       },
       {
-        "HashCode": -1479087601,
+        "HashCode": -1170934932,
         "Kind": "Components.EventHandler",
         "Name": "ontimeupdate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10975,7 +10975,7 @@
         }
       },
       {
-        "HashCode": -898153427,
+        "HashCode": 1687697879,
         "Kind": "Components.EventHandler",
         "Name": "onvolumechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11058,7 +11058,7 @@
         }
       },
       {
-        "HashCode": -2112349627,
+        "HashCode": 415165835,
         "Kind": "Components.EventHandler",
         "Name": "onwaiting",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11141,7 +11141,7 @@
         }
       },
       {
-        "HashCode": -327365118,
+        "HashCode": 1393202360,
         "Kind": "Components.EventHandler",
         "Name": "onloadstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11224,7 +11224,7 @@
         }
       },
       {
-        "HashCode": 1456185765,
+        "HashCode": -1058618290,
         "Kind": "Components.EventHandler",
         "Name": "ontimeout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11307,7 +11307,7 @@
         }
       },
       {
-        "HashCode": -2095170446,
+        "HashCode": 1868035898,
         "Kind": "Components.EventHandler",
         "Name": "onabort",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11390,7 +11390,7 @@
         }
       },
       {
-        "HashCode": 619586961,
+        "HashCode": -1315283955,
         "Kind": "Components.EventHandler",
         "Name": "onload",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11473,7 +11473,7 @@
         }
       },
       {
-        "HashCode": 86652342,
+        "HashCode": -645577457,
         "Kind": "Components.EventHandler",
         "Name": "onloadend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11556,7 +11556,7 @@
         }
       },
       {
-        "HashCode": -499861320,
+        "HashCode": -1211540170,
         "Kind": "Components.EventHandler",
         "Name": "onprogress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11639,7 +11639,7 @@
         }
       },
       {
-        "HashCode": 987912917,
+        "HashCode": 526168825,
         "Kind": "Components.EventHandler",
         "Name": "onerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11722,7 +11722,7 @@
         }
       },
       {
-        "HashCode": 1445516514,
+        "HashCode": 1481449863,
         "Kind": "Components.EventHandler",
         "Name": "onactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11805,7 +11805,7 @@
         }
       },
       {
-        "HashCode": -134312560,
+        "HashCode": -1428520707,
         "Kind": "Components.EventHandler",
         "Name": "onbeforeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11888,7 +11888,7 @@
         }
       },
       {
-        "HashCode": 265427953,
+        "HashCode": 854616526,
         "Kind": "Components.EventHandler",
         "Name": "onbeforedeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11971,7 +11971,7 @@
         }
       },
       {
-        "HashCode": 1679360639,
+        "HashCode": -1639008266,
         "Kind": "Components.EventHandler",
         "Name": "ondeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12054,7 +12054,7 @@
         }
       },
       {
-        "HashCode": -1444320015,
+        "HashCode": 1993174221,
         "Kind": "Components.EventHandler",
         "Name": "onended",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12137,7 +12137,7 @@
         }
       },
       {
-        "HashCode": 87050637,
+        "HashCode": -1529808506,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12220,7 +12220,7 @@
         }
       },
       {
-        "HashCode": -2061521566,
+        "HashCode": -374598342,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12303,7 +12303,7 @@
         }
       },
       {
-        "HashCode": -225584043,
+        "HashCode": -1454717851,
         "Kind": "Components.EventHandler",
         "Name": "onloadeddata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12386,7 +12386,7 @@
         }
       },
       {
-        "HashCode": 1630266944,
+        "HashCode": -1358730893,
         "Kind": "Components.EventHandler",
         "Name": "onloadedmetadata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12469,7 +12469,7 @@
         }
       },
       {
-        "HashCode": 1874119534,
+        "HashCode": -1201553444,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12552,7 +12552,7 @@
         }
       },
       {
-        "HashCode": 1880086914,
+        "HashCode": 2087430453,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12635,7 +12635,7 @@
         }
       },
       {
-        "HashCode": 1060036317,
+        "HashCode": -663950054,
         "Kind": "Components.EventHandler",
         "Name": "onreadystatechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12718,7 +12718,7 @@
         }
       },
       {
-        "HashCode": -258776585,
+        "HashCode": -1941643567,
         "Kind": "Components.EventHandler",
         "Name": "onscroll",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12801,7 +12801,7 @@
         }
       },
       {
-        "HashCode": 270371576,
+        "HashCode": 935847479,
         "Kind": "Components.EventHandler",
         "Name": "ontoggle",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12884,7 +12884,7 @@
         }
       },
       {
-        "HashCode": -1013377066,
+        "HashCode": -1698323457,
         "Kind": "Components.Splat",
         "Name": "Attributes",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12923,7 +12923,7 @@
         }
       },
       {
-        "HashCode": 1983350056,
+        "HashCode": 1253127625,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13019,7 +13019,7 @@
         }
       },
       {
-        "HashCode": -918586758,
+        "HashCode": 911841185,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13141,7 +13141,7 @@
         }
       },
       {
-        "HashCode": 285648181,
+        "HashCode": -1942988177,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13263,7 +13263,7 @@
         }
       },
       {
-        "HashCode": -390312385,
+        "HashCode": 1802963008,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13396,7 +13396,7 @@
         }
       },
       {
-        "HashCode": 753900526,
+        "HashCode": -1114655068,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13529,7 +13529,7 @@
         }
       },
       {
-        "HashCode": 1958235745,
+        "HashCode": 1087638689,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13662,7 +13662,7 @@
         }
       },
       {
-        "HashCode": -213112784,
+        "HashCode": 87239544,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13795,7 +13795,7 @@
         }
       },
       {
-        "HashCode": 896205552,
+        "HashCode": -705063450,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13928,7 +13928,7 @@
         }
       },
       {
-        "HashCode": -611489844,
+        "HashCode": -1296411743,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14061,7 +14061,7 @@
         }
       },
       {
-        "HashCode": -1900613903,
+        "HashCode": -2053403907,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14194,7 +14194,7 @@
         }
       },
       {
-        "HashCode": 1178947804,
+        "HashCode": 770811310,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14327,7 +14327,7 @@
         }
       },
       {
-        "HashCode": -1687644159,
+        "HashCode": -932269738,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14460,7 +14460,7 @@
         }
       },
       {
-        "HashCode": -467810177,
+        "HashCode": -903775792,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14593,7 +14593,7 @@
         }
       },
       {
-        "HashCode": -28226955,
+        "HashCode": 1770039860,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14726,7 +14726,7 @@
         }
       },
       {
-        "HashCode": -871838403,
+        "HashCode": -1537882380,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14859,7 +14859,7 @@
         }
       },
       {
-        "HashCode": -835499467,
+        "HashCode": 391612438,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14981,7 +14981,7 @@
         }
       },
       {
-        "HashCode": -769786614,
+        "HashCode": -783866241,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15103,7 +15103,7 @@
         }
       },
       {
-        "HashCode": 38034431,
+        "HashCode": -758116133,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15190,7 +15190,7 @@
         }
       },
       {
-        "HashCode": -565514700,
+        "HashCode": -392375795,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15278,7 +15278,7 @@
         }
       },
       {
-        "HashCode": -1786509883,
+        "HashCode": -285308237,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15365,7 +15365,7 @@
         }
       },
       {
-        "HashCode": -1895356752,
+        "HashCode": -125538214,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15453,7 +15453,7 @@
         }
       },
       {
-        "HashCode": -1129133121,
+        "HashCode": 1149929272,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15540,7 +15540,7 @@
         }
       },
       {
-        "HashCode": 803710373,
+        "HashCode": -775782125,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15628,7 +15628,7 @@
         }
       },
       {
-        "HashCode": 481468436,
+        "HashCode": -1910451680,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15715,7 +15715,7 @@
         }
       },
       {
-        "HashCode": 326747066,
+        "HashCode": 1126158779,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15803,7 +15803,7 @@
         }
       },
       {
-        "HashCode": -1840748925,
+        "HashCode": -2029936096,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15890,7 +15890,7 @@
         }
       },
       {
-        "HashCode": -1445731936,
+        "HashCode": -272898464,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15978,7 +15978,7 @@
         }
       },
       {
-        "HashCode": -301918280,
+        "HashCode": 891618797,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16065,7 +16065,7 @@
         }
       },
       {
-        "HashCode": 1105580174,
+        "HashCode": 397350215,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16153,7 +16153,7 @@
         }
       },
       {
-        "HashCode": 1546902954,
+        "HashCode": -969027807,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16240,7 +16240,7 @@
         }
       },
       {
-        "HashCode": -1286403520,
+        "HashCode": -1409422644,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16328,7 +16328,7 @@
         }
       },
       {
-        "HashCode": 1613694171,
+        "HashCode": -633561236,
         "Kind": "Components.Ref",
         "Name": "Ref",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16367,7 +16367,7 @@
         }
       },
       {
-        "HashCode": 1588062340,
+        "HashCode": 1058173999,
         "Kind": "Components.Key",
         "Name": "Key",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16411,8 +16411,28 @@
   "RootNamespace": "Aridio_Rent_A_Car.Client",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\Cliente\\_imports.razor",
+      "TargetPath": "Pages\\Cliente\\_imports.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\Cliente\\Index.razor",
+      "TargetPath": "Pages\\Cliente\\Index.razor",
       "FileKind": "component"
     },
     {
@@ -16421,53 +16441,8 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\UsuarioRoles\\AddEditRol.razor",
-      "TargetPath": "Pages\\UsuarioRoles\\AddEditRol.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\UsuarioRoles\\Index.razor",
-      "TargetPath": "Pages\\UsuarioRoles\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\Vehiculo\\AddEditVehiculo.razor",
-      "TargetPath": "Pages\\Vehiculo\\AddEditVehiculo.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\Vehiculo\\_imports.razor",
-      "TargetPath": "Pages\\Vehiculo\\_imports.razor",
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\EstadoVehiculo\\_imports.razor",
+      "TargetPath": "Pages\\EstadoVehiculo\\_imports.razor",
       "FileKind": "component"
     },
     {
@@ -16476,8 +16451,58 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\Vehiculo\\_imports.razor",
+      "TargetPath": "Pages\\Vehiculo\\_imports.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\Vehiculo\\AddEditVehiculo.razor",
+      "TargetPath": "Pages\\Vehiculo\\AddEditVehiculo.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\UsuarioRoles\\AddEditRol.razor",
+      "TargetPath": "Pages\\UsuarioRoles\\AddEditRol.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\Cliente\\AddEditVehiculo.razor",
+      "TargetPath": "Pages\\Cliente\\AddEditVehiculo.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\UsuarioRoles\\Index.razor",
+      "TargetPath": "Pages\\UsuarioRoles\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Pages\\EstadoVehiculo\\Index.razor",
+      "TargetPath": "Pages\\EstadoVehiculo\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\the_d\\OneDrive\\Documentos\\GitHub\\Aridio_Rent_A_Car\\Client\\App.razor",
+      "TargetPath": "App.razor",
       "FileKind": "component"
     }
   ],
