@@ -30,10 +30,10 @@
         <label>Precio por dia</label>
         <input type="number" class="form-control" @bind="Vehi.PrecioPorDia" />
     </div>
-    @* <div class="form-group">
+    <div class="form-group">
         <label>Estado del Vehiculo</label>
         <input type="number" class="form-control" @bind="Vehi.EstadoVehiculoId" />
-    </div> *@
+    </div>
 
     @* <button type="submit" class="mt-2 btn btn-success" @onclick="Send">Ok</button> *@
     <button type="submit" class="mt-2 btn btn-success" @onclick="Next">Siguiente</button>
@@ -63,11 +63,11 @@
                     Vehi.Id = resultado.Data.Id;
                     Vehi.Marca = resultado.Data.Marca;
                     Vehi.Año = resultado.Data.Año;
-                    @* Vehi.TipoVehiculoId = resultado.Data.TipoVehiculoId; *@
+                    Vehi.TipoVehiculoId = resultado.Data.TipoVehiculoId; 
                     Vehi.Color = resultado.Data.Color;
                     Vehi.NumeroPlaca = resultado.Data.NumeroPlaca;
                     Vehi.PrecioPorDia = resultado.Data.PrecioPorDia;
-                    @* Vehi.EstadoVehiculoId = resultado.Data.EstadoVehiculoId; *@
+                    Vehi.EstadoVehiculoId = resultado.Data.EstadoVehiculoId; 
                 }
             }
         }

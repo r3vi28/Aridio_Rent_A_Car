@@ -877,11 +877,11 @@
       "url": "_framework\/Aridio_Rent_A_Car.Shared.pdb"
     },
     {
-      "hash": "sha256-UV4POIoOPdJKH2q1\/IzOUkpcUd3s1fChrzwpG0S\/gac=",
+      "hash": "sha256-pm88dMsiRcEzR217wk8Oqd5cPcxURp4XEo+j7fMTXoI=",
       "url": "_framework\/Aridio_Rent_A_Car.Client.dll"
     },
     {
-      "hash": "sha256-5+T0CR6FCRF2aBttZYQK5I9W8m6Z54k6y4AaISM1z4Y=",
+      "hash": "sha256-VDIjZlhEu+hRXdvQSEvclyiwyV\/jV2IjjgT8cWIZtXk=",
       "url": "_framework\/Aridio_Rent_A_Car.Client.pdb"
     },
     {
@@ -889,9 +889,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-H3hUOprJjGRen8UKY6TznrfNmSwGeKrlv3Js9cC1uFg=",
+      "hash": "sha256-5eMzRl6usAqU65ypgg7FVeFhMBhdsqMfcdPS4O5PmiU=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "LbTirmTp"
+  "version": "7MJzOjTu"
 };

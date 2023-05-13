@@ -3,6 +3,8 @@ using Aridio_Rent_A_Car.Shared.Records;
 using Aridio_Rent_A_Car.Shared.Routes;
 using Aridio_Rent_A_Car.Client.Extensions;
 using Aridio_Rent_A_Car.Shared.Requests;
+using Aridio_Rent_A_Car.Client;
+using Aridio_Rent_A_Car.Shared;
 using System.Net.Http.Json;
 
 namespace Aridio_Rent_A_Car.Client.Managers;
@@ -63,5 +65,6 @@ public class UsuarioManager : IUsuarioManager
         return Result.Fail(e.Message);
     }
 }
+
 
 }

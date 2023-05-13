@@ -1,10 +1,14 @@
 @page "/roles"
 <h1>Roles</h1>
+<br>
 <button class="btn btn-outline-primary" @onclick="Agregar">Agregar</button>
+
 @if(Roles != null)
 {
+   
     <ul>
         @foreach(var rol in Roles){
+             <br>
             <li>@rol.Nombre <span class="btn btn-outline-warning" @onclick="()=>Editar(rol.Id)">Editar</span> </li>
         }
     </ul>
