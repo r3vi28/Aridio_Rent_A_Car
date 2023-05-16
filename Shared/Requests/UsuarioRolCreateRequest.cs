@@ -11,4 +11,7 @@ public class UsuarioRolCreateRequest
         MaxLength(100, ErrorMessage = "El nombre debe poseer como maximo 100 caracteres")
     ]
     public string Nombre { get; set; } = null!;
+    public bool PermisoParaCrear { get; set; }
+    public bool PermisoParaEditar{ get; set; }
+    public bool PermisoParaEliminar{ get; set; }
 }

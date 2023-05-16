@@ -1,0 +1,50 @@
+@page "/reservas"
+<h1>Reservas</h1>
+<button class="btn btn-outline-primary" @onclick="Crear">Crear</button>
+<br>
+@if (reservas != null)
+{
+    <ul>
+        @foreach (var res in reservas)
+        {
+            <li>@res.Id <span class="btn btn-outline-warning" @onclick="()=>Editar(res.Id)">Editar></span><span class="btn btn-outline-danger btn-delete" @onclick="()=>Eliminar(res.Id)">Eliminar></span></li>
+        }
+    </ul>
+}
+else
+{
+    <p>Cargando...</p>
+}
+<br>
+@code
+{
+    public List<ReservaRecord>? reservas {get; set;}
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var response = await ReservaManager.GetAsync();
+        if(response.Succeeded)
+        {
+            reservas = response.Items.ToList();
+        }
+
+    }
+
+
+    public void Crear()
+    {
+        urlHelper.NavigateTo("/reservas/crear",false);
+    }
+
+    public void Editar(int Id)
+    {
+        urlHelper.NavigateTo($"/reservas/editar/{Id}",false);
+    }
+
+
+
+    public void Eliminar(int Id)
+    {
+        urlHelper.NavigateTo($"/reservas/eliminar/{Id}",false);
+    }
+}

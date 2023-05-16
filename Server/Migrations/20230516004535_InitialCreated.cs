@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace AridioRentACar.Server.Migrations
+namespace Aridio_Rent_A_Car.Server.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class InitialCreated : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -33,11 +33,48 @@ namespace AridioRentACar.Server.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "EstadosVehiculos",
+                name: "FormasDePago",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_FormasDePago", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "UsuariosRoles",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PermisoParaCrear = table.Column<bool>(type: "bit", nullable: false),
+                    PermisoParaEditar = table.Column<bool>(type: "bit", nullable: false),
+                    PermisoParaEliminar = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_UsuariosRoles", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Vehiculos",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Marca = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Año = table.Column<int>(type: "int", nullable: false),
+                    Modelo = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Color = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    NumeroPlaca = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PrecioPorDia = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Si = table.Column<bool>(type: "bit", nullable: false),
+                    No = table.Column<bool>(type: "bit", nullable: false),
                     AireAcondicionado = table.Column<bool>(type: "bit", nullable: false),
                     Encendedor = table.Column<bool>(type: "bit", nullable: false),
                     Radio = table.Column<bool>(type: "bit", nullable: false),
@@ -64,78 +101,7 @@ namespace AridioRentACar.Server.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_EstadosVehiculos", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "FormasDePago",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_FormasDePago", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "TiposVehiculos",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_TiposVehiculos", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "UsuariosRoles",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_UsuariosRoles", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Vehiculos",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Marca = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Año = table.Column<int>(type: "int", nullable: false),
-                    TipoVehiculoId = table.Column<int>(type: "int", nullable: false),
-                    Color = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    NumeroPlaca = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    PrecioPorDia = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    EstadoVehiculoId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
                     table.PrimaryKey("PK_Vehiculos", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Vehiculos_EstadosVehiculos_EstadoVehiculoId",
-                        column: x => x.EstadoVehiculoId,
-                        principalTable: "EstadosVehiculos",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Vehiculos_TiposVehiculos_TipoVehiculoId",
-                        column: x => x.TipoVehiculoId,
-                        principalTable: "TiposVehiculos",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -218,16 +184,6 @@ namespace AridioRentACar.Server.Migrations
                 name: "IX_Usuarios_RolesId",
                 table: "Usuarios",
                 column: "RolesId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Vehiculos_EstadoVehiculoId",
-                table: "Vehiculos",
-                column: "EstadoVehiculoId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Vehiculos_TipoVehiculoId",
-                table: "Vehiculos",
-                column: "TipoVehiculoId");
         }
 
         /// <inheritdoc />
@@ -250,12 +206,6 @@ namespace AridioRentACar.Server.Migrations
 
             migrationBuilder.DropTable(
                 name: "UsuariosRoles");
-
-            migrationBuilder.DropTable(
-                name: "EstadosVehiculos");
-
-            migrationBuilder.DropTable(
-                name: "TiposVehiculos");
         }
     }
 }

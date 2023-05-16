@@ -1,4 +1,4 @@
-@page "/EstadoVehiculo"
+  @* @page "/EstadoVehiculo"
 <EditForm Model="@Estad" OnInvalidSubmit="Send">
 <h1>Estado Vehiculo</h1>
 <DataAnnotationsValidator/>
@@ -19,7 +19,7 @@
 
      <div class="form-group">
         <label>Encendedor</label>
-        @* <InputText class="form-control" @bind-Value="Estad.Encendedor"></InputText> *@
+        <InputText class="form-control" @bind-Value="Estad.Encendedor"></InputText> 
     </div>
     <div class="form-group">
         <InputCheckbox id="ckbCrear" @bind-Value="Estad.Encendedor"/>
@@ -360,4 +360,5 @@ protected override async Task OnInitializedAsync()
         }
 
 
-}
+}  *@
+

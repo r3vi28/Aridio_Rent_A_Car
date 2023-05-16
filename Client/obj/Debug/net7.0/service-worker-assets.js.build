@@ -869,19 +869,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-WX8ZG5zytEDLJsPK+QKlXmJk36EEEmaJMja22FHRRj4=",
+      "hash": "sha256-brjtjCF0+VqiCk33LbTzp051Egf8OHEZhwZgnfiflqw=",
       "url": "_framework\/Aridio_Rent_A_Car.Shared.dll"
     },
     {
-      "hash": "sha256-u3fpKgkFn7LMOdYCnwMdi0PjVpugV1O5Y7Ekq16+tBw=",
+      "hash": "sha256-6Sxk63m5BO8JK6opLFX5L\/KQQPWNyG25LjOiVTj8bLc=",
       "url": "_framework\/Aridio_Rent_A_Car.Shared.pdb"
     },
     {
-      "hash": "sha256-pm88dMsiRcEzR217wk8Oqd5cPcxURp4XEo+j7fMTXoI=",
+      "hash": "sha256-HFtV7s3\/N0JD5aZEVXEKq6BfS4DdlpvoYxFs\/fV0E5M=",
       "url": "_framework\/Aridio_Rent_A_Car.Client.dll"
     },
     {
-      "hash": "sha256-VDIjZlhEu+hRXdvQSEvclyiwyV\/jV2IjjgT8cWIZtXk=",
+      "hash": "sha256-SFSx63uCTVTG0\/iZqq6jwAT7jRaowZOerA2ARXLidlk=",
       "url": "_framework\/Aridio_Rent_A_Car.Client.pdb"
     },
     {
@@ -889,9 +889,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-5eMzRl6usAqU65ypgg7FVeFhMBhdsqMfcdPS4O5PmiU=",
+      "hash": "sha256-AH7HilKq2qP20gfbY0S48dCgsAb3cEZpAs9T4SibdwQ=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "7MJzOjTu"
+  "version": "lMZ34WX1"
 };

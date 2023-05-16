@@ -1,4 +1,6 @@
 ﻿@page "/"
+@inject NavigationManager nvg
+<button value="login" @onclick="Gotologin">Login</button>
 
 <PageTitle>Index</PageTitle>
 
@@ -7,3 +9,11 @@
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+
+@code {
+    void Gotologin()
+    {
+        nvg.NavigateTo("/auth/login");
+    }
+}

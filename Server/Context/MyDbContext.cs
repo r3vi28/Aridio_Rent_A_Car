@@ -7,10 +7,8 @@ namespace Aridio_Rent_A_Car.Server.Context;
 public interface IMyDbContext
 {
     DbSet<Cliente> Clientes { get; set; }
-    DbSet<EstadoVehiculo> EstadosVehiculos { get; set; }
     DbSet<FormaDePago> FormasDePago { get; set; }
     DbSet<Reserva> Reservas { get; set; }
-    DbSet<TipoVehiculo> TiposVehiculos { get; set; }
     DbSet<Usuario> Usuarios { get; set; }
     DbSet<UsuarioRol> UsuariosRoles { get; set; }
     DbSet<Vehiculo> Vehiculos { get; set; }
@@ -37,10 +35,8 @@ public class MyDbContext : DbContext, IMyDbContext
 
     #region Tablas de mi base de datos
     public DbSet<Cliente> Clientes { get; set; } = null!;
-    public DbSet<EstadoVehiculo> EstadosVehiculos { get; set; } = null!;
     public DbSet<FormaDePago> FormasDePago { get; set; } = null!;
     public DbSet<Reserva> Reservas { get; set; } = null!;
-    public DbSet<TipoVehiculo> TiposVehiculos { get; set; } = null!;
     public DbSet<Usuario> Usuarios { get; set; } = null!;
     public DbSet<UsuarioRol> UsuariosRoles { get; set; } = null!;
     public DbSet<Vehiculo> Vehiculos { get; set; } = null!;

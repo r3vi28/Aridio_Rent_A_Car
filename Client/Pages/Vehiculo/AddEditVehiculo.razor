@@ -1,8 +1,7 @@
 @page "/vehiculo/crear"
 @page "/vehiculo/editar/{Id:int}"
 
-
-<EditForm Model="@Vehi" OnInvalidSubmit="Next">
+<EditForm Model="@Vehi" OnInvalidSubmit="Send">
 <h1>@Titulo</h1>
 <DataAnnotationsValidator/>
 <ValidationSummary/>
@@ -10,14 +9,17 @@
         <label>Marca</label>
         <InputText class="form-control" @bind-Value="Vehi.Marca"></InputText>
     </div>
+
+    <div class="form-group">
+        <label>Modelo</label>
+        <InputText class="form-control" @bind-Value="Vehi.Modelo"></InputText>
+    </div>
+
     <div class="form-group">
         <label>Año</label>
         <input type="number" class="form-control" @bind ="Vehi.Año" />
     </div>
-    @* <div class="form-group">
-        <label>Tipo de Vehiculo</label>
-        <input type="number" class="form-control" @bind="Vehi.TipoVehiculoId" />
-    </div> *@
+
     <div class="form-group">
         <label>Color</label>
         <InputText class="form-control" @bind-Value="Vehi.Color"></InputText>
@@ -30,14 +32,325 @@
         <label>Precio por dia</label>
         <input type="number" class="form-control" @bind="Vehi.PrecioPorDia" />
     </div>
+
+<br>
+
+<div class="form-group">
+        <label for="@Vehi.AireAcondicionado">Aire Acondicionado</label>
+    </div>
     <div class="form-group">
-        <label>Estado del Vehiculo</label>
-        <input type="number" class="form-control" @bind="Vehi.EstadoVehiculoId" />
+        <InputCheckbox id="cba.Si" @bind-Value="Vehi.Si"/>
+        <label for="cbaSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="cbaNo" @bind-Value="Vehi.No"/>
+        <label for="cbaNo">No</label>
     </div>
 
-    @* <button type="submit" class="mt-2 btn btn-success" @onclick="Send">Ok</button> *@
-    <button type="submit" class="mt-2 btn btn-success" @onclick="Next">Siguiente</button>
-</EditForm>
+
+    <br>
+
+
+    <div class="form-group">
+        <label for="@Vehi.Encendedor">Encendedor</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckcSi" @bind-Value="Vehi.Si"/>
+        <label for="ckcSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckcNo" @bind-Value="Vehi.No"/>
+        <label for="ckcNo">No</label>
+    </div>
+    
+    <br>
+
+    <div class="form-group">
+        <label for="@Vehi.Radio">Radio</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Bateria">Bateria</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Limpiabrisas">Limpiabrisas</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>        
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Revista">Revista</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Documentos">Documentos</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Micas">Micas</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Asientos">Asientos</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.GomaRepuesto">Goma de repuesto</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Placa">Placa</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbCrear" @bind-Value="Vehi.Si"/>
+        <label for="ckbCrear">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbEditar" @bind-Value="Vehi.No"/>
+        <label for="ckbEditar">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Vidrios">Vidrios</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Llaveros">Llaveros</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Antenas">Antenas</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Gatos">Gatos</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+
+    <div class="form-group">
+        <label for="@Vehi.TapaGasolina">Tapa Gasolina</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+
+    <div class="form-group">
+        <label for="@Vehi.Cinturones">Cinturones</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.No"/>
+        <label for="ckbSi">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.LlaveDeRuedas">Llave de ruedas</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Alfombras">Alfombras</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+
+    <div class="form-group">
+        <label for="@Vehi.Espejos">Espejos</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="Vehi.TapaDeBocinas">Tapa de bocinas</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Bocinas">Bocinas</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+    </div>
+<br>
+
+    <div class="form-group">
+        <label for="@Vehi.Logos">Logos</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbSi" @bind-Value="Vehi.Si"/>
+        <label for="ckbSi">Si</label>
+    </div>
+    <div class="form-group">
+        <InputCheckbox id="ckbNo" @bind-Value="Vehi.No"/>
+        <label for="ckbNo">No</label>
+   
+    </div>
+
+
+
+
+
+
+<button type="submit" class="mt-2 btn btn-success" @onclick="Send">Ok</button>
+
+</EditForm>  
+
+
 
 
 @code
@@ -51,7 +364,7 @@
 
     public VehiculoUpdateRequest Vehi {get; set;} = new VehiculoUpdateRequest();
 
-    public EstadoVehiculoUpdateRequest EstadoVehi {get; set;} = new EstadoVehiculoUpdateRequest();
+ 
 
         protected override async Task OnInitializedAsync()
         {
@@ -62,26 +375,62 @@
                 {
                     Vehi.Id = resultado.Data.Id;
                     Vehi.Marca = resultado.Data.Marca;
+                    Vehi.Modelo = resultado.Data.Modelo;
                     Vehi.Año = resultado.Data.Año;
-                    Vehi.TipoVehiculoId = resultado.Data.TipoVehiculoId; 
                     Vehi.Color = resultado.Data.Color;
                     Vehi.NumeroPlaca = resultado.Data.NumeroPlaca;
                     Vehi.PrecioPorDia = resultado.Data.PrecioPorDia;
-                    Vehi.EstadoVehiculoId = resultado.Data.EstadoVehiculoId; 
+
+
+
+            Vehi.AireAcondicionado = resultado.Data.AireAcondicionado;
+            Vehi.Encendedor = resultado.Data.Encendedor;
+            Vehi.Radio = resultado.Data.Radio;
+            Vehi.Bateria = resultado.Data.Bateria;
+            Vehi.Limpiabrisas = resultado.Data.Limpiabrisas;
+            Vehi.Revista = resultado.Data.Revista;
+            Vehi.Documentos = resultado.Data.Documentos;
+            Vehi.Micas = resultado.Data.Micas;
+            Vehi.Asientos = resultado.Data.Asientos;
+            Vehi.GomaRepuesto = resultado.Data.GomaRepuesto;
+            Vehi.Placa = resultado.Data.Placa;
+            Vehi.Vidrios = resultado.Data.Vidrios;
+            Vehi.Llaveros = resultado.Data.Llaveros;
+            Vehi.Antenas = resultado.Data.Antenas;
+            Vehi.Gatos = resultado.Data.Gatos;
+            Vehi.TapaGasolina = resultado.Data.TapaGasolina;
+            Vehi.Cinturones = resultado.Data.Cinturones;
+            Vehi.LlaveDeRuedas = resultado.Data.LlaveDeRuedas;
+            Vehi.Alfombras = resultado.Data.Alfombras;
+            Vehi.Espejos = resultado.Data.Espejos;
+            Vehi.TapaDeBocinas = resultado.Data.TapaDeBocinas;
+            Vehi.Bocinas = resultado.Data.Bocinas;
+            Vehi.Logos = resultado.Data.Logos;
+                   
                 }
             }
         }
+
+     
         
-        @* public async void Send()
+        public async void Send()
         {
             var resultado = await VehiculoManager.CreateAsync(Vehi);
 
             if(resultado.Succeeded) urlHelper.NavigateTo("/vehiculo");
-        } *@
-
-        public void Next()
-        {
-            urlHelper.NavigateTo("/EstadoVehiculo");
         }
+
+
+
+
+
+        private bool showForm = false;
+
+    private void ToggleForm()
+    {
+        showForm = !showForm;
+    }
+
+    
 
 }

@@ -9,11 +9,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace AridioRentACar.Server.Migrations
+namespace Aridio_Rent_A_Car.Server.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20230429071712_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20230516004535_InitialCreated")]
+    partial class InitialCreated
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -71,88 +71,6 @@ namespace AridioRentACar.Server.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Clientes");
-                });
-
-            modelBuilder.Entity("Aridio_Rent_A_Car.Server.Models.EstadoVehiculo", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<bool>("AireAcondicionado")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Alfombras")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Antenas")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Asientos")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Bateria")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Bocinas")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Cinturones")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Documentos")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Encendedor")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Espejos")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Gatos")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("GomaRepuesto")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Limpiabrisas")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("LlaveDeRuedas")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Llaveros")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Logos")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Micas")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Placa")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Radio")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Revista")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("TapaDeBocinas")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("TapaGasolina")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Vidrios")
-                        .HasColumnType("bit");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("EstadosVehiculos");
                 });
 
             modelBuilder.Entity("Aridio_Rent_A_Car.Server.Models.FormaDePago", b =>
@@ -218,27 +136,6 @@ namespace AridioRentACar.Server.Migrations
                     b.ToTable("Reservas");
                 });
 
-            modelBuilder.Entity("Aridio_Rent_A_Car.Server.Models.TipoVehiculo", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Descripcion")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Nombre")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("TiposVehiculos");
-                });
-
             modelBuilder.Entity("Aridio_Rent_A_Car.Server.Models.Usuario", b =>
                 {
                     b.Property<int>("Id")
@@ -280,6 +177,15 @@ namespace AridioRentACar.Server.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("PermisoParaCrear")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("PermisoParaEditar")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("PermisoParaEliminar")
+                        .HasColumnType("bit");
+
                     b.HasKey("Id");
 
                     b.ToTable("UsuariosRoles");
@@ -293,35 +199,104 @@ namespace AridioRentACar.Server.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<bool>("AireAcondicionado")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Alfombras")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Antenas")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Asientos")
+                        .HasColumnType("bit");
+
                     b.Property<int>("Año")
                         .HasColumnType("int");
+
+                    b.Property<bool>("Bateria")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Bocinas")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Cinturones")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Color")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("EstadoVehiculoId")
-                        .HasColumnType("int");
+                    b.Property<bool>("Documentos")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Encendedor")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Espejos")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Gatos")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("GomaRepuesto")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Limpiabrisas")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("LlaveDeRuedas")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Llaveros")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Logos")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Marca")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Micas")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Modelo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("No")
+                        .HasColumnType("bit");
+
                     b.Property<string>("NumeroPlaca")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Placa")
+                        .HasColumnType("bit");
+
                     b.Property<decimal>("PrecioPorDia")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("TipoVehiculoId")
-                        .HasColumnType("int");
+                    b.Property<bool>("Radio")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Revista")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Si")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("TapaDeBocinas")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("TapaGasolina")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Vidrios")
+                        .HasColumnType("bit");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("EstadoVehiculoId");
-
-                    b.HasIndex("TipoVehiculoId");
 
                     b.ToTable("Vehiculos");
                 });
@@ -362,25 +337,6 @@ namespace AridioRentACar.Server.Migrations
                         .IsRequired();
 
                     b.Navigation("Roles");
-                });
-
-            modelBuilder.Entity("Aridio_Rent_A_Car.Server.Models.Vehiculo", b =>
-                {
-                    b.HasOne("Aridio_Rent_A_Car.Server.Models.EstadoVehiculo", "Estado")
-                        .WithMany()
-                        .HasForeignKey("EstadoVehiculoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Aridio_Rent_A_Car.Server.Models.TipoVehiculo", "TipoVehiculo")
-                        .WithMany()
-                        .HasForeignKey("TipoVehiculoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Estado");
-
-                    b.Navigation("TipoVehiculo");
                 });
 #pragma warning restore 612, 618
         }

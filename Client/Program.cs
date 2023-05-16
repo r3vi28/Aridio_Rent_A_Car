@@ -9,10 +9,8 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddScoped<IClienteManager, ClienteManager>();
-builder.Services.AddScoped<IEstadoVehiculoManager, EstadoVehiculoManager>();
 builder.Services.AddScoped<IFormaDePagoManager, FormaDePagoManager>();
 builder.Services.AddScoped<IReservaManager, ReservaManager>();
-builder.Services.AddScoped<ITipoVehiculoManager, TipoVehiculoManager>();
 builder.Services.AddScoped<IUsuarioManager, UsuarioManager>();
 builder.Services.AddScoped<IUsuarioRolManager, UsuarioRolManager>();
 builder.Services.AddScoped<IVehiculoManager, VehiculoManager>();

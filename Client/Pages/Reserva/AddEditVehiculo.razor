@@ -1,0 +1,94 @@
+@page "/reservas/crear"
+@page "/reservas/editar/{Id:int}"
+@page "/reservas/eliminar/{Id:int}"
+
+<EditForm Model="@res" OnInvalidSubmit="Send">
+<h1>@Titulo</h1>
+<DataAnnotationsValidator/>
+<ValidationSummary/>
+    <div class="form-group">
+        <label>Fecha de inicio</label>
+        <input type="datetime" class="form-control" @bind="res.FechaInicio" />
+    </div>
+<br>
+    <div class="form-group">
+        <label>Fecha culminacion</label>
+        <input type="datetime" class="form-control" @bind="res.FechaFin" />
+    </div>
+<br>
+    <div class="form-group">
+        <label>Vehiculo</label>
+        <input type="text" @bind="res.VehiculoId">
+    </div>
+<br>
+    <div class="form-group">
+        <label>Cliente</label>
+        <input type="text" @bind="res.ClienteId">
+    </div>
+<br>
+    <div class="form-group">
+        <label for="duracion">Duración de la renta (días):</label>
+        <input type="number" id="duracion" @bind="res.Dias" />
+    </div>
+<br>
+    <div class="form-group">
+        <label for="preciototal">Precio total a pagar:</label>
+        <input type="number" id="presiototal" @bind="res.PrecioTotal" />
+    </div>
+<br>
+    <div class="form-group">
+        <label for="pagado">Pagado</label>
+        <input type="number" id="pagado" @bind="res.Pagado" />
+    </div>
+<br>
+    <div class="form-group">
+        <label>Forma de Pago</label>
+        <input type="text" @bind="res.FormaDePagoId">
+    </div>
+<br>
+    @* <div class="form-group">
+        <label>Fecha de expiracion licencia</label>
+        <input type="datetime" class="form-control" @bind="Clien.FechaExpiracionLicencia" />
+    </div> *@
+
+    <button type="submit" class="btn btn-success" @onclick="Send">Ok</button>
+</EditForm>
+
+@code
+{
+    [Parameter]
+
+    public int Id {get; set;} = 0;
+
+    public string Titulo => Id>0? "Editar reservas":"Crear reservas";
+
+    public ReservaUpdateRequest res {get; set;} = new ReservaUpdateRequest();
+
+protected override async Task OnInitializedAsync()
+{
+    if(Id!=0){
+        var resultado = await ReservaManager.GetByIdAsync(Id);
+        if(resultado.Succeeded){
+            res.Id = resultado.Data.Id;
+            res.FechaInicio = resultado.Data.FechaInicio;
+            res.FechaFin = resultado.Data.FechaFin;
+            res.VehiculoId = resultado.Data.VehiculoId;
+            res.ClienteId = resultado.Data.ClienteId;
+            res.Dias = resultado.Data.Dias;
+            res.PrecioTotal = resultado.Data.PrecioTotal;
+            res.Pagado = resultado.Data.Pagado;
+            res.FormaDePagoId = resultado.Data.FormaDePagoId;
+            res.Cancelado = resultado.Data.Cancelado;
+            StateHasChanged();
+        }
+    }
+}
+
+public async void Send()
+{
+    var resultado = await ReservaManager.CreateAsync(res);
+
+    if(resultado.Succeeded) urlHelper.NavigateTo("/reservas");
+}
+
+}
