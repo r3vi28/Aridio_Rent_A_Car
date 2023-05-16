@@ -17,7 +17,7 @@ public class Delete : EndpointBaseAsync.WithRequest<Request>.WithActionResult<Re
     {
         this.dbContext = dbContext;
     }
-    [HttpDelete(UsuarioRouteManager.BASE + "{id:int}")]
+    [HttpDelete(UsuarioRouteManager.Delete)]
     public override async Task<ActionResult<Respuesta>> HandleAsync([FromRoute] Request request, CancellationToken cancellationToken = default)
     {
         try
