@@ -13,6 +13,7 @@ public interface IVehiculoManager
     Task<Result<int>> CreateAsync(VehiculoCreateRequest request);
     Task<Result<VehiculoRecord>> GetByIdAsync(int Id);
     Task<Result> DeleteAsync(int id);
+    Task<List<VehiculoRecord>> GetVehiculosAsync();
 }
 
 public class VehiculoManager : IVehiculoManager
@@ -23,6 +24,7 @@ public class VehiculoManager : IVehiculoManager
     {
         this.httpClient = httpClient;
     }
+
 
     public async Task<ResultList<VehiculoRecord>> GetAsync()
     {
@@ -64,4 +66,8 @@ public class VehiculoManager : IVehiculoManager
     }
 }
 
+    public Task<List<VehiculoRecord>> GetVehiculosAsync()
+    {
+        throw new NotImplementedException();
+    }
 }
